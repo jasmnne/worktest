@@ -18,11 +18,18 @@
 
     html {
     	font-family: 'Work Sans', arial, sans-serif;
-    	box-sizing: border-box;
-  		padding:0;
-  		top:0;
-  		left:0;
+		box-sizing: border-box;
+		padding:0;
+		top:0;
+		left:0;
     }
+
+
+	*,
+	*::before,
+	*::after {
+	  box-sizing: border-box;
+	}
 
     body {
   		padding:0;
@@ -33,16 +40,15 @@
 
     .l-wrap {
 		max-width: 1140px;
-		margin-right: auto;
-		margin-left: auto;
 		clear: both;
+		margin:0 auto;
 	}
 
 	.l-wrap-article {
-	  display: table;
-	  clear: both;
-	  content:'';
-	  width:100%;
+		display: table;
+		clear: both;
+		content:'';
+		width:100%;
 	}
 
 	.grid-item{
@@ -51,37 +57,28 @@
 	    float: left; 
 	}
 
-	.column {
-	  width: calc((100% - 40px * 12) / 12);
-	  margin-right: 20px;
-	  margin-left: 20px;
-	  background: var(--white);
-	  float:left;
-	  height: 10em;
-	  margin-top:1em;
-	}
-
 	.l-1col {
 		width:100%;
+		float:left;
 	}
 
     h1 {
-    	font-size:2.2em;
+    	font-size:2.25em;
     	font-weight:700;
     	line-height: 125%;
     }
 
     h2 {
-    	font-size:1.6em;
+    	font-size:1.5em;
     	font-weight:400;
-    	letter-spacing: -0.01em;
+    	letter-spacing: -0.02em;
     	line-height: 125%;
     }
 
     h3 {
-    	font-size:1.4em;
+    	font-size:1.25em;
     	font-weight:600;
-    	letter-spacing: -0.01em;
+    	letter-spacing: -0.02em;
     	line-height: 150%;
     }
 
@@ -89,54 +86,63 @@
     	text-transform: uppercase;
     	font-size:1em;
     	font-weight:600;
-    	letter-spacing: 0.2em;
+    	letter-spacing: 0.25em;
     	line-height: 150%;
     }
 
     h5 {
     	text-transform: uppercase;
-    	font-size:0.8em;
-    	font-weight:600;
-    	letter-spacing: 0.2em;
+    	font-size:1em;
+    	font-weight:400;
+    	letter-spacing: 0.25em;
     	line-height: 150%;
     }
 
     h6 {
-    	font-size:0.8em;
+    	font-size:1em;
     	text-transform: uppercase;
     	font-weight: 600;
-    	letter-spacing: 0.05em;
     	line-height: 150%;
     } 	
 
     blockquote {
-    	font-size:1.1em;
+    	font-size:1.25em;
     	margin:0;
     	line-height: 150%;
     }
 
     p {
-    	font-size:0.8em;
+    	font-size:1em;
     	font-weight: 400;
     	line-height: 150%;
     }
 
     @media (min-width: 500px) {
 
+    	.l-1col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
     	blockquote {
-	    	font-size:1.2em;
+	    	font-size:1.25em;
     	}
     
 	    p {
-	    	font-size:0.9em;
+	    	font-size:1em;
     	}
 
     }
 
     @media (min-width: 810px) {
+
+    	.l-1col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
     
 	    h1 {
-	    	font-size:2.4em;
+	    	font-size:2.5em;
 	    }
 
 	    h2 {	
@@ -146,6 +152,11 @@
     }
 
     @media (min-width: 970px) {
+
+    	.l-1col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
     
 	    h1 {
 	    	font-size:2.75em;
@@ -166,58 +177,41 @@
 
     	h1 {
     	font-size:3em;
-    	font-weight:700;
-    	line-height: 125%;
+
 	    }
 
 	    h2 {
 	    	font-size:2.5em;
-	    	font-weight:400;
-	    	letter-spacing: -0.02em;
-	    	line-height: 125%;
+
 	    }
 
 	    h3 {
 	    	font-size:1.5em;
-	    	font-weight:600;
-	    	letter-spacing: -0.02em;
-	    	line-height: 150%;
+
 	    }
 
 	    h4 {
-	    	text-transform: uppercase;
 	    	font-size:1em;
-	    	font-weight:700;
-	    	letter-spacing: 0.2em;
-	    	line-height: 150%;
 	    }
 
 	    h5 {
-	    	text-transform: uppercase;
 	    	font-size:1em;
-	    	font-weight:400;
-	    	letter-spacing: 0.2em;
-	    	line-height: 150%;
+	   
 	    }
 
 	    h6 {
 	    	font-size:1em;
-	    	text-transform: uppercase;
-	    	font-weight: 600;
-	    	letter-spacing: 0.05em;
-	    	line-height: 150%;
+	 
 	    } 	
 
 	    blockquote {
 	    	font-size:1.5em;
-	    	margin:0;
-	    	line-height: 150%;
+	
 	    }
 
 	    p {
 	    	font-size:1em;
-	    	font-weight: 400;
-	    	line-height: 150%;
+
 	    }
 
     }
