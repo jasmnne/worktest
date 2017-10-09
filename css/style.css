@@ -35,7 +35,7 @@
 
     .gradient-container {
     	height: auto;
-		background:linear-gradient(45deg, var(--green) 25%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--green) 50%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		background-position: center;
 		background-repeat: no-repeat;
 		padding-bottom:40px;
