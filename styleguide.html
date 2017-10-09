@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700" rel="stylesheet">
+
+    <style type="text/css">
+
+    :root {
+    	--green: #47bbb8;
+    	--blue: #5063ae;
+    	--purple: #7e5aa6;
+    	--red: #d42251;
+    	--rich-red: #B12251;
+    	--white:#fff;
+    }
+
+    html {
+    	font-family: 'Work Sans', arial, sans-serif;
+    	box-sizing: border-box;
+  		padding:0;
+  		top:0;
+  		left:0;
+    }
+
+    body {
+  		padding:0;
+  		margin:0;
+  		top:0;
+  		left:0;
+    }
+
+    .l-wrap {
+		max-width: 1140px;
+		margin-right: auto;
+		margin-left: auto;
+		clear: both;
+	}
+
+	.l-wrap-article {
+	  display: table;
+	  clear: both;
+	  content:'';
+	  width:100%;
+	}
+
+	.grid-item{
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    float: left; 
+	}
+
+	.column {
+	  width: calc((100% - 40px * 12) / 12);
+	  margin-right: 20px;
+	  margin-left: 20px;
+	  background: var(--white);
+	  float:left;
+	  height: 10em;
+	  margin-top:1em;
+	}
+
+	.column-bg {
+		background: var(--blue);
+		height: 12em;
+	}
+
+	.l-1col {
+		width:100%;
+	}
+
+    h1 {
+    	font-size:2.2em;
+    	font-weight:700;
+    	line-height: 125%;
+    }
+
+    h2 {
+    	font-size:1.6em;
+    	font-weight:400;
+    	letter-spacing: -0.01em;
+    	line-height: 125%;
+    }
+
+    h3 {
+    	font-size:1.4em;
+    	font-weight:600;
+    	letter-spacing: -0.01em;
+    	line-height: 150%;
+    }
+
+    h4 {
+    	text-transform: uppercase;
+    	font-size:1em;
+    	font-weight:600;
+    	letter-spacing: 0.2em;
+    	line-height: 150%;
+    }
+
+    h5 {
+    	text-transform: uppercase;
+    	font-size:0.8em;
+    	font-weight:600;
+    	letter-spacing: 0.2em;
+    	line-height: 150%;
+    }
+
+    h6 {
+    	font-size:0.8em;
+    	text-transform: uppercase;
+    	font-weight: 600;
+    	letter-spacing: 0.05em;
+    	line-height: 150%;
+    } 	
+
+    blockquote {
+    	font-size:1.1em;
+    	margin:0;
+    	line-height: 150%;
+    }
+
+    p {
+    	font-size:0.8em;
+    	font-weight: 400;
+    	line-height: 150%;
+    }
+
+    @media (min-width: 500px) {
+
+    	blockquote {
+	    	font-size:1.2em;
+    	}
+    
+	    p {
+	    	font-size:0.9em;
+    	}
+
+    }
+
+    @media (min-width: 810px) {
+    
+	    h1 {
+	    	font-size:2.4em;
+	    }
+
+	    h2 {	
+    		font-size:2em;
+    	}
+
+    }
+
+    @media (min-width: 970px) {
+    
+	    h1 {
+	    	font-size:3em;
+	    }
+
+	    h2 {	
+    		font-size:2.2em;
+    	}
+
+    }
+
+    @media (min-width: 1140px) {
+
+    	.l-1col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
+    	h1 {
+    	font-size:3.2em;
+    	font-weight:700;
+    	line-height: 125%;
+	    }
+
+	    h2 {
+	    	font-size:2.6em;
+	    	font-weight:400;
+	    	letter-spacing: -0.01em;
+	    	line-height: 125%;
+	    }
+
+	    h3 {
+	    	font-size:1.4em;
+	    	font-weight:600;
+	    	letter-spacing: -0.01em;
+	    	line-height: 150%;
+	    }
+
+	    h4 {
+	    	text-transform: uppercase;
+	    	font-size:1em;
+	    	font-weight:600;
+	    	letter-spacing: 0.2em;
+	    	line-height: 150%;
+	    }
+
+	    h5 {
+	    	text-transform: uppercase;
+	    	font-size:0.8em;
+	    	font-weight:600;
+	    	letter-spacing: 0.2em;
+	    	line-height: 150%;
+	    }
+
+	    h6 {
+	    	font-size:0.8em;
+	    	text-transform: uppercase;
+	    	font-weight: 600;
+	    	letter-spacing: 0.05em;
+	    	line-height: 150%;
+	    } 	
+
+	    blockquote {
+	    	font-size:1.2em;
+	    	margin:0;
+	    	line-height: 150%;
+	    }
+
+	    p {
+	    	font-size:1em;
+	    	font-weight: 400;
+	    	line-height: 150%;
+	    }
+
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+  	<div class="l-wrap">
+
+  		<div class="l-wrap-article">
+
+  			<div class="grid-item l-1col">
+
+			  	<p>Typography across breakpoints of 320px, 500px, 810px, 970px, 1140px</p>
+
+
+				 <h1>H1 - All your company’s knowledge at your fingertips</h1>
+
+				 <h2>H2 - Can’t find that important file again?</h2>
+
+				 <h3>H3 - Get around company silos</h3>
+
+				 <h4>H4 - That is why we built Cogo.</h4>
+
+				 <h5>H5 - Lightning Fast Search</h5>
+
+				 <h6>H6 - Cogo for…</h6>
+
+				 <blockquote>A lot of awesome content gets stuck in email threads, Slack channels, personal folders or in a shared team directory where all that goodness will slowly fade away.  We think that great content deserves better.</blockquote>
+
+				 <p>This is a 12 column grid. The max width is 1140px. Each column is 55px on the max width and gets scaled smaller when resized down. The gutter is always 20px on the left and right.</p>
+
+				 <div class="column-bg">
+
+					 <div class="column"></div>
+
+				      <div class="column"></div>
+				        
+				      <div class="column"></div>
+				        
+				      <div class="column"></div>
+				        
+				      <div class="column"></div>
+				        
+				      <div class="column"></div>
+
+				      <div class="column"></div>
+
+				      <div class="column"></div>
+
+				      <div class="column"></div>
+
+				      <div class="column"></div>
+
+				      <div class="column"></div>
+
+				      <div class="column"></div>
+
+				  </div>
+
+		  	</div>
+
+	  	</div>
+
+	</div>
+
+  </body>
+
+
+</html>
