@@ -133,44 +133,6 @@
 		width:100px;
 	}
 
-	.signupform input[type="text"] {
-	  display: inline;
-	  margin: 0;
-	  font-size:1em;
-	  font-family: 'Work Sans', sans-serif;
-	  letter-spacing: 0.5px;
-	  color: var(--concrete);
-	  appearance: none;
-	  box-shadow: none;
-	  border-radius: 5px 0px 0px 5px;
-	  border:1px solid var(--chrome);
-	  padding:10px;
-	}
-
-	.signupform input[type="submit"] {
-	  display: inline;
-	  margin: 0;
-	  font-size:1em;
-	  letter-spacing: 0.02em;
-	  font-family: 'Work Sans', sans-serif;
-	  font-weight: 300;
-	  color: var(--white);
-	  background: var(--red);
-	  appearance: none;
-	  box-shadow: none;
-	  border-radius: 0px 5px 5px 0px;
-	  border:1px solid var(--red);
-	  padding:10px;
-	  margin-left:-6px;
-	  -webkit-transition-duration: 0.4s; /* Safari */
-	  transition-duration: 0.4s;
-	}
-
-	.signupform input[type="submit"]:hover {
-	  background: var(--rich-red);
-	  border:1px solid var(--rich-red);
-	}
-
 	button { 
 	  font-size:1em;
 	  font-family: 'Work Sans', sans-serif;
