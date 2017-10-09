@@ -38,7 +38,6 @@
 		background:linear-gradient(45deg, var(--green) 25%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 100%;
 		padding-bottom:40px;
 		background-size: 100vw 100vh;
   position: fixed;
