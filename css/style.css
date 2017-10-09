@@ -122,12 +122,12 @@
 		border:1px solid var(--green);
 	}
 
-	.l-logo {
+	.logo {
 		width: 25%;
 	  	display: inline-block;
 	}
 
-	.l-logo img {
+	.logo img {
 		padding-top:10px;
 		height:80px;
 		width:100px;
