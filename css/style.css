@@ -39,8 +39,8 @@
 		background-position: bottom left;
 		background-attachment: fixed;
 		padding-bottom:40px;
-		background-repeat: no-repeat;]
-		background-size:contain;
+		background-repeat: no-repeat;
+		background-size:100% 100vh;
     }
 
     .white-container {
