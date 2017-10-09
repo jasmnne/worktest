@@ -18,7 +18,6 @@
 		top:0;
 		left:0;
 		-webkit-text-size-adjust: 100%;
-
     }
 
 	*,
@@ -40,7 +39,8 @@
 		background-position: bottom left;
 		background-attachment: fixed;
 		padding-bottom:40px;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat;]
+		background-size:contain;
     }
 
     .white-container {
