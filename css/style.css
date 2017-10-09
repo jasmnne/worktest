@@ -35,7 +35,7 @@
 
     .gradient-container {
     	height: auto;
-		background:linear-gradient(45deg, var(--green) 25%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--green) 15%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		background-position: center;
 		background-repeat: no-repeat;
 		padding-bottom:40px;
@@ -73,10 +73,16 @@
 	  width: calc((100% - 40px * 12) / 12);
 	  margin-right: 20px;
 	  margin-left: 20px;
-	  background: var(--green);
+	  background: var(--white);
 	  float:left;
 	  height: 200px;
 	  margin-top:20px;
+	  padding-top:20px;
+	}
+
+	.column-bg {
+		background-color: var(--green);
+		height:240px;
 	}
 
 	.l-1col {
