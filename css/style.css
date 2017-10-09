@@ -322,6 +322,35 @@
 
     }
 
+    @media (min-width:690px) {
+
+    	.l-1col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
+		.l-2col {
+			width: calc((6/12)*100%);
+			float:left;
+		}
+
+		.l-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
+		.l-4col {
+			width: calc((6/12)*100%);
+			float:left;
+		}
+		.l-6col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
+
+    }
+
     @media (min-width: 810px) {
 
     	.l-1col {
