@@ -37,7 +37,7 @@
     .gradient-container {
     	height: auto;
 		background:linear-gradient(45deg, var(--green) 25%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		background-position: center;
+		background-position: bottom left;
 		background-attachment: fixed;
 		padding-bottom:40px;
 		background-repeat: no-repeat;
@@ -129,46 +129,27 @@
 		width:100px;
 	}
 
-	.signupform {
-	  padding-top:10px;
-	}
-
-	.signupform input[type="text"] {
-	  display: inline;
-	  margin: 0;
+	button { 
 	  font-size:1em;
-	  font-family: 'Work Sans', sans-serif;
-	  letter-spacing: 0.5px;
-	  color: var(--concrete);
-	  appearance: none;
-	  box-shadow: none;
-	  border-radius: 5px 0px 0px 5px;
-	  border:1px solid var(--chrome);
-	  padding:15px;
-	}
-
-	.signupform input[type="submit"] {
-	  display: inline;
-	  margin: 0;
-	  font-size:1em;
-	  letter-spacing: 0.5px;
 	  font-family: 'Work Sans', sans-serif;
 	  font-weight: 300;
+	  letter-spacing: 0.5px;
 	  color: var(--white);
-	  background: var(--red);
+	  background:var(--red);
 	  appearance: none;
 	  box-shadow: none;
-	  border-radius: 0px 5px 5px 0px;
-	  border:1px solid var(--red);
+	  border-radius: 5px;
 	  padding:15px;
-	  margin-left:-6px;
+	  text-align: center;
+	  border:0;
 	  -webkit-transition-duration: 0.4s; /* Safari */
 	  transition-duration: 0.4s;
+	  margin-top:20px;
+	  margin-bottom:20px;
 	}
 
-	.signupform input[type="submit"]:hover {
+	button:hover {
 	  background: var(--rich-red);
-	  border:1px solid var(--rich-red);
 	}
 
 	@media (min-width: 320px) {
