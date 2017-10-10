@@ -46,6 +46,11 @@
 
     }
 
+    .grey-container {
+    	background-color:var(--silver);
+
+    }
+
     .green-container {
     	background-color:var(--green);
     }
@@ -122,6 +127,50 @@
 		border:1px solid var(--green);
 	}
 
+	.footer-col {
+		width:100%;
+		display: inline-block;
+		margin-top:20px;
+		margin-bottom: 20px;
+
+	}
+
+	.footer-col img {
+		padding-top:10px;
+		height:80px;
+		width:100px;
+	}
+
+	.footer-col ul {
+	  list-style-type:none;
+	  margin:0;
+	  padding:0;
+	  background-color: none;
+	}
+
+	.footer-col ul li {
+	  margin:0;
+	  padding:0;
+	}
+
+	.footer-col ul li a {
+		text-decoration: none;
+		color: var(--blue);
+		line-height: 150%;
+		font-size:1em;
+	}
+
+	.footer-col ul li a:hover {
+		color: var(--green);
+	}
+
+	.footer-base {
+		width:100%;
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+
+
 	.logo {
 		width: 25%;
 	  	display: inline-block;
@@ -156,6 +205,26 @@
 	  background: var(--rich-red);
 	}
 
+		.white {
+	    	color: var(--white);
+	    }
+
+	    .blue {
+	    	color: var(--blue);
+	    }
+
+	    .green {
+	    	color: var(--green);
+	    }
+
+	    .concrete {
+	    	color: var(--concrete);
+	    }
+
+	    .gray {
+	    	color: var(--gray);
+	    }
+
 	@media (min-width: 320px) {
 
 	    .l-1col {
@@ -183,9 +252,16 @@
 			float:left;
 		}
 
-		.white {
-	    	color: var(--white);
-	    }
+		.footer-col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
+		.footer-base {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
 
 		h1 {
 	    	font-size:1.75em;
@@ -241,6 +317,12 @@
 	    	font-weight: 400;
 	    	line-height: 150%;
 	    }
+
+	    small {
+	    	font-size:0.75em;
+	    	font-weight: 400;
+	    	line-height:150%;
+	    }
 	}
 
     @media (min-width: 500px) {
@@ -266,6 +348,15 @@
 		}
 		.l-6col {
 			width: calc((6/12)*100%);
+			float:left;
+		}
+		.footer-col {
+			width: calc((6/12)*100%);
+			float:left;
+			min-height:15em;
+		}
+		.footer-base {
+			width: calc((12/12)*100%);
 			float:left;
 		}
 
@@ -345,6 +436,14 @@
 		}
 		.l-6col {
 			width: calc((4/12)*100%);
+			float:left;
+		}
+		.footer-col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+		.footer-base {
+			width: calc((12/12)*100%);
 			float:left;
 		}
 
@@ -427,6 +526,14 @@
 			width: calc((4/12)*100%);
 			float:left;
 		}
+		.footer-col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+		.footer-base {
+			width: calc((12/12)*100%);
+			float:left;
+		}
     
 	    h1 {
 	    	font-size:2.5em;
@@ -498,6 +605,14 @@
 		}
 		.l-6col {
 			width: calc((2/12)*100%);
+			float:left;
+		}
+		.footer-col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+		.footer-base {
+			width: calc((12/12)*100%);
 			float:left;
 		}
     
@@ -572,6 +687,14 @@
 		}
 		.l-6col {
 			width: calc((2/12)*100%);
+			float:left;
+		}
+		.footer-col {
+			width: calc((2/12)*100%);
+			float:left;
+		}
+		.footer-base {
+			width: calc((12/12)*100%);
 			float:left;
 		}
 
