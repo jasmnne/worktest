@@ -886,7 +886,7 @@
 	    display: block;
 	    background:var(--blue);
 	    width: 100%;
-	    height: 100%;
+	    height: auto;
 	    overflow: ;
 	    position: absolute;
 	    top:0;
