@@ -170,7 +170,6 @@
 		margin-bottom: 20px;
 	}
 
-
 	.logo {
 		width: 25%;
 		height: 80px;
@@ -188,7 +187,6 @@
 		display: inline-block;
 		text-align: right;
 	}
-
 
 	.links ul li {
 	  display:inline-block;
@@ -312,12 +310,20 @@
 		.logo {
 			width: calc((4/12)*100%);
 			float:left;
+			height: 60px;
 		}
 
 		.links {
 			width: calc((8/12)*100%);
 			float:left;
+			height: 60px;
 		}
+
+		.logo img {
+			height:60px;
+			width:80px;
+		}
+
 
 		h1 {
 	    	font-size:1.75em;
@@ -418,12 +424,18 @@
 		.logo {
 			width: calc((1/12)*100%);
 			float:left;
+			height:80px;
 		}
 
 		.links {
 			width: calc((11/12)*100%);
 			float:left;
+			height:80px;
 		}
+		.logo img {
+		height:80px;
+		width:100px;
+	}
 
 		h1 {
 	    	font-size:2em;
@@ -854,10 +866,8 @@
 	  color: var(--white);
 	  background: ;
 	  text-align: center;
-	  padding: 22px 0;
 	  display: none;
 	  cursor: pointer;
-
 	}
 
 	/*Hide checkbox*/
@@ -949,5 +959,17 @@
 	    display:block;
 	    width:36px;
 	    float: right;
+	    padding: 22px 0;
+
+	  }
+	}
+	@media screen and (max-width : 499px) {
+
+	.show-menu {
+	    display:block;
+	    width:36px;
+	    float: right;
+	    padding: 12px 0;
+
 	  }
 	}
