@@ -232,7 +232,7 @@
 	  padding:10px;
 	  -webkit-transition-duration: 0.4s; /* Safari */
 	  transition-duration: 0.4s;
-	  -webkit-appearance: none;
+
 	}
 
 	button { 
@@ -403,6 +403,7 @@
 			-webkit-transition-duration: 0.2s; /* Safari */
 			transition-duration: 0.2s;
 			margin-bottom:20px;
+			-webkit-appearance: none;
 		}
 
 		.signup input[type="submit"]:hover {
