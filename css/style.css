@@ -893,7 +893,7 @@
 	    background:var(--blue);
 	    width: 100%;
 	    height: 100%;
-	    overflow: ;
+	    overflow: hidden ;
 	    position: absolute;
 	    top:0;
 	    left:0;
@@ -977,7 +977,7 @@
 	    display: block;
 	    background:var(--blue);
 	    width: 100%;
-	    height: 100%;
+	    height: auto;
 	    overflow: ;
 	    position: absolute;
 	    top:0;
@@ -1055,7 +1055,7 @@
 	  }
 	}
 
-	@media screen and (max-width : 689px) {
+	@media screen and (max-width : 689px) and (orientation: portrait) {
 
 	.show-menu {
 	    display:block;
@@ -1070,7 +1070,34 @@
 	    background:var(--blue);
 	    width: 100%;
 	    height: 100%;
-	    overflow: ;
+	    overflow: hidden ;
+	    position: absolute;
+	    top:0;
+	    left:0;
+	    margin:0;
+	    padding: 0;
+	    margin-top:60px;
+	  }
+
+	}
+
+
+	@media screen and (max-width : 689px) and (orientation: landscape) {
+
+	.show-menu {
+	    display:block;
+	    width:36px;
+	    float: right;
+	    padding: 12px 0;
+
+	  }
+
+	  input[type=checkbox]:checked ~ #menu {
+	    display: block;
+	    background:var(--blue);
+	    width: 100%;
+	    height: auto;
+	    overflow:  ;
 	    position: absolute;
 	    top:0;
 	    left:0;
