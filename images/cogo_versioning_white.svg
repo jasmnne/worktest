@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" baseProfile="basic" id="Layer_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 600"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 450 450"
 	 xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#D2D3D4;}
@@ -20,24 +20,31 @@
 	.st13{font-family:'WorkSans-Bold';}
 	.st14{font-size:96px;}
 	.st15{fill:none;stroke:url(#SVGID_2_);stroke-width:28.9158;stroke-miterlimit:10;}
+	.st16{fill:#41BFB9;}
+	.st17{fill:#FFFFFF;stroke:#F15E4F;stroke-width:1.4463;stroke-miterlimit:10;}
+	.st18{fill:#7F5AA6;}
+	.st19{fill:#FFFFFF;stroke:#F15E4F;stroke-width:0.9375;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#3DB0A9;stroke-width:3;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#493C96;stroke-width:3;stroke-miterlimit:10;}
+	.st22{fill:none;stroke:#7F59A4;stroke-width:3;stroke-miterlimit:10;}
 </style>
 <g>
 	<g>
-		<path class="st0" d="M408.8,336c-4,0-9.6,0.2-12.8,0.4v-0.1c17.2-9.9,26.9-19.3,26.9-31.7c0-9.9-7.1-20.4-23.9-20.4
+		<path class="st0" d="M333.8,261c-4,0-9.6,0.2-12.8,0.4v-0.1c17.2-9.9,26.9-19.3,26.9-31.7c0-9.9-7.1-20.4-23.9-20.4
 			c-1.4,0-2.8,0.1-4.2,0.2v6.8c0,5.7-6.3,15.6-20.7,14.6l14.1,4.3c0.2-8.4,3.6-13,9.7-13c5.7,0,8.5,3.6,8.5,8.5
-			c0,8.9-8.6,18.7-30.3,32.3v10.6h47.5V336H408.8z"/>
+			c0,8.9-8.6,18.7-30.3,32.3v10.6h47.5V261H333.8z"/>
 	</g>
-	<polygon class="st0" points="292.3,151.2 181.9,151.2 190.3,120.6 283.8,120.6 	"/>
+	<polygon class="st0" points="217.3,74.2 106.9,74.2 115.3,43.6 208.8,43.6 	"/>
 	<g>
-		<text transform="matrix(1 0 0 1 200.2318 424.4691)" class="st0 st13 st14">3</text>
+		<text transform="matrix(1 0 0 1 125.2318 349.4691)" class="st0 st13 st14">3</text>
 	</g>
 	<g>
-		<text transform="matrix(1 0 0 1 273.8476 255.3686)" class="st0 st13 st14">1</text>
+		<text transform="matrix(1 0 0 1 198.8476 180.3686)" class="st0 st13 st14">1</text>
 	</g>
-	<circle class="st2" cx="407.5" cy="138.5" r="17.5"/>
-	<path class="st1" d="M407.5,138.5H297l-13.3-25.9l-80.8,0.1L185.3,148v143.9c0,12.4,10.1,22.5,22.5,22.5h174.5
+	<circle class="st2" cx="332.5" cy="63.5" r="17.5"/>
+	<path class="st1" d="M332.5,63.5H222l-13.3-25.9L125,37.7L110.3,71v145.9c0,12.4,10.1,22.5,22.5,22.5h174.5
 		c12.4,0,22.5-10.1,22.5-22.5l0-68.3h95.2l0.3,156.1c0,12.4-10.1,22.5-22.5,22.5l-141.3,0.1v62.6c0,12.4-10.1,22.5-22.5,22.5
 		l-174.3,0.2c-12.4,0-22.5-10.1-22.5-22.5l-0.1-163"/>
-	<circle class="st2" cx="117.3" cy="300.9" r="17.5"/>
+	<circle class="st2" cx="42.3" cy="225.9" r="17.5"/>
 </g>
 </svg>
