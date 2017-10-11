@@ -51,6 +51,10 @@
 
     }
 
+    .blue-container {
+    	background-color: var(--blue);
+    }
+
     .green-container {
     	background-color:var(--green);
     }
@@ -238,19 +242,18 @@
 	button { 
 	  font-size:1em;
 	  font-family: 'Work Sans', sans-serif;
-	  font-weight: 300;
+	  font-weight: 400;
 	  letter-spacing: 0.02em;
 	  color: var(--white);
 	  background:var(--red);
 	  appearance: none;
 	  box-shadow: none;
 	  border-radius: 5px;
-	  padding:15px;
+	  padding:10px;
 	  text-align: center;
 	  border:0;
 	  -webkit-transition-duration: 0.4s; /* Safari */
 	  transition-duration: 0.4s;
-	  margin-top:20px;
 	  margin-bottom:40px;
 	}
 
@@ -456,7 +459,9 @@
 
 	    blockquote {
 	    	font-size:1.25em;
-	    	margin:0;
+	    	margin-left:0;
+	    	margin-right: 0;
+
 	    	line-height: 150%;
 	    }
 
