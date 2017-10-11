@@ -123,22 +123,22 @@
 	.features-2col {
 		width:100%;
 		display: inline-block;
-		margin-top:20px;
-		margin-bottom: 20px;
+		margin-top:0px;
+		margin-bottom: 0px;
 	}
 
 	.features-icon {
 		width:100%
 		display: inline-block;
 		float:left;
-		margin-top:20px;
+		margin-top:0px;
 	}
 
 	.features-list {
 		width:100%;
 		display: inline-block;
 		float:left;
-		margin-top:20px;
+		margin-top:0px;
 	}
 
 	.l-3col {
@@ -565,14 +565,16 @@
 			display: inline-block;
 			float:left;
 			clear: both;
-			margin-right: calc((1/12)*100%);
-			padding-top:15px;
+			margin-right: calc((0.5/12)*100%);
+			padding-top:20px;
+			min-height: 10em;
 		}
 
 		.features-list {
-			width: calc((9/12)*100%);
+			width: calc((9.5/12)*100%);
 			display: inline-block;
 			float:left;
+			min-height: 10em;
 		}
 
 		.l-3col {
@@ -708,6 +710,23 @@
 		.features-2col {
 			width: calc((6/12)*100%);
 			float:left;
+		}
+
+		.features-icon {
+			width: calc((2/12)*100%);
+			display: inline-block;
+			float:left;
+			clear: both;
+			margin-right: calc((0.5/12)*100%);
+			padding-top:20px;
+			min-height: 15em;
+		}
+
+		.features-list {
+			width: calc((9.5/12)*100%);
+			display: inline-block;
+			float:left;
+			min-height: 15em;
 		}
 
 	
