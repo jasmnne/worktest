@@ -886,7 +886,7 @@
 	  padding: 0;
 	}
 	/*Responsive Menu*/
-	@media screen and (max-width : 810px) {
+	@media screen and (max-width : 810px) and (orientation: portrait) {
 
 	  input[type=checkbox]:checked ~ #menu {
 	    display: block;
@@ -918,7 +918,7 @@
 	  }
 
 	  .links ul li a {
-	    font-size:1.5em;
+	    font-size:1.25em;
 	    font-weight: 300;
 	    color: var(--white);
 	    text-decoration: none;
@@ -969,6 +969,92 @@
 
 	  }
 	}
+
+
+	@media screen and (max-width : 810px) and (orientation: landscape) {
+
+	  input[type=checkbox]:checked ~ #menu {
+	    display: block;
+	    background:var(--blue);
+	    width: 100%;
+	    height: 100%;
+	    overflow: ;
+	    position: absolute;
+	    top:0;
+	    left:0;
+	    margin:0;
+	    padding: 0;
+	    padding-bottom:0px;
+	    margin-top:80px;
+	  }
+
+	  .links {
+	    text-align: center;
+	    margin:0 auto;
+	  }
+
+	  .links ul li {
+	       margin:0;
+	       left:0;
+	       display:inline-block;
+	      padding-top:10px;
+	      padding-bottom:10px;
+	      	  padding-left:0px;
+	  }
+
+	  .links ul li a {
+	    font-size:1em;
+	    font-weight: 300;
+	    color: var(--white);
+	    text-decoration: none;
+	    padding:0;
+	    margin:0;
+	  }
+
+	  .links ul li a:hover {
+	    border-bottom:2px solid var(--green);
+	    color: var(--green);
+	    padding-bottom:10px;
+	  }
+
+	  .links input[type="submit"] {
+	    display: inline;
+	    font-size:1em;
+	    font-family: 'Work Sans', sans-serif;
+	    font-weight: 300;
+	    letter-spacing: 0.02em;
+	    color: var(--white);
+	    border:2px solid var(--green);
+	    background:none;
+	    appearance: none;
+	    box-shadow: none;
+	    border-radius: 5px;
+	    padding:10px;
+	  }
+
+	  .links ul {
+	    display: none;
+	  }
+
+
+
+	  /*Make all menu links full width*/
+
+	  ul li, li a {
+	    width: 100%;
+
+	  }
+	  /*Display 'show menu' link*/
+
+	  .show-menu {
+	    display:block;
+	    width:36px;
+	    float: right;
+	    padding: 22px 0;
+
+	  }
+	}
+
 	@media screen and (max-width : 689px) {
 
 	.show-menu {
