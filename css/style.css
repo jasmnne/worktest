@@ -266,6 +266,21 @@
 	.green {
 		color: var(--green);
 	}
+	.purple {
+		color: var(--purple);
+	}
+	.red {
+		color: var(--red);
+	}
+	.rich-red {
+		color: var(--rich-red);
+	}
+	.silver {
+		color: var(--silver);
+	}
+	.chrome {
+		color: var(--chrome);
+	}
 	.concrete {
 		color: var(--concrete);
 	}
