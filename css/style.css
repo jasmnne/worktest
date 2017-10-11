@@ -59,6 +59,11 @@
     	background-color:var(--green);
     }
 
+    .purple-container {
+    	background-color:var(--purple);
+
+    }
+
     .l-wrap {
 		max-width: 1140px;
 		clear: both;
@@ -149,6 +154,42 @@
 		border:1px solid var(--green);
 	}
 
+	.pricing-3col {
+		width:100%;
+		display: inline-block;
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+
+	.green-round-outline {
+		border: 2px solid var(--green);
+		border-radius: 10px;
+	}
+
+	.blue-round-outline {
+		border: 2px solid var(--blue);
+		border-radius: 10px;
+	}
+
+	.purple-round-outline{
+		border: 2px solid var(--purple);
+		border-radius: 10px;
+	}
+
+	.checkmarked {
+	  list-style: none;
+	  list-style-position: outside;
+	  padding: 0;
+	  line-height:200%;
+	  font-size: 0.75em;
+	  list-style-image: url('../images/cogo_check_green.svg');
+	  list-style-position: outside;
+	  padding-left:1em;
+
+	}
+	.checkmarked .green-check{
+	  
+	}
 	.l-4col {
 		width:100%;
 		display: inline-block;
@@ -256,7 +297,7 @@
 	  font-weight: 300;
 	  letter-spacing: 0.02em;
 	  color: var(--white);
-	  border:2px solid var(--green);
+	  border:2px solid var(--white);
 	  background:none;
 	  appearance: none;
 	  box-shadow: none;
@@ -265,6 +306,11 @@
 	  -webkit-transition-duration: 0.4s; /* Safari */
 	  transition-duration: 0.4s;
 
+	}
+
+	.links input[type="submit"]:hover {
+		background-color: var(--rich-red);
+	  border:2px solid var(--rich-red);
 	}
 
 	button { 
@@ -286,7 +332,19 @@
 	}
 
 	button:hover {
-	  background: var(--rich-red);
+	  background-color: var(--rich-red);
+	}
+
+	.green-bg {
+		background-color: var(--green);
+	}
+
+	.blue-bg {
+		background-color: var(--blue);
+	}
+
+	.purple-bg {
+		background-color: var(--purple);
 	}
 
 	.white {
@@ -366,7 +424,7 @@
 
 
 		.features-icon {
-			width: calc((4/12)*100%);
+			width: calc((2/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
@@ -376,9 +434,15 @@
 			width: calc((12/12)*100%);
 			display: inline-block;
 			float:left;
+			margin-bottom:20px;
 		}
 
 		.l-3col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
+		.pricing-3col {
 			width: calc((12/12)*100%);
 			float:left;
 		}
@@ -575,12 +639,18 @@
 			display: inline-block;
 			float:left;
 			min-height: 10em;
+			margin-bottom:0px;
 		}
 
 		.l-3col {
 			width: calc((12/12)*100%);
 			float:left;
 		}
+		.pricing-3col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
 
 		.l-4col {
 			width: calc((6/12)*100%);
@@ -734,6 +804,11 @@
 			width: calc((4/12)*100%);
 			float:left;
 		}
+		.pricing-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
 
 		.l-4col {
 			width: calc((6/12)*100%);
@@ -868,6 +943,12 @@
 			float:left;
 		}
 
+		.pricing-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
+
 		.l-4col {
 			width: calc((3/12)*100%);
 			float:left;
@@ -984,6 +1065,12 @@
 			float:left;
 		}
 
+		.pricing-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
+
 		.l-4col {
 			width: calc((3/12)*100%);
 			float:left;
@@ -1090,6 +1177,12 @@
 			width: calc((4/12)*100%);
 			float:left;
 		}
+
+		.pricing-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
 
 		.l-4col {
 			width: calc((3/12)*100%);
@@ -1239,7 +1332,7 @@
 	    font-weight: 300;
 	    letter-spacing: 0.02em;
 	    color: var(--white);
-	    border:2px solid var(--green);
+	    border:2px solid var(--white);
 	    background:none;
 	    appearance: none;
 	    box-shadow: none;
