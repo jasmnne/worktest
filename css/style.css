@@ -431,7 +431,7 @@
 			float:left;
 		}
 		.footer-col {
-			width: calc((6/12)*100%);
+			width: calc((4/12)*100%);
 			float:left;
 			min-height:15em;
 		}
@@ -743,7 +743,7 @@
 			float:left;
 		}
 		.footer-col {
-			width: calc((4/12)*100%);
+			width: calc((2/12)*100%);
 			float:left;
 		}
 		.footer-base-col {
