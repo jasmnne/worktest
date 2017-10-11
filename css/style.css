@@ -177,19 +177,23 @@
 	}
 
 	.checkmarked {
-	  list-style: none;
-	  list-style-position: outside;
-	  padding: 0;
-	  line-height:200%;
-	  font-size: 0.75em;
-	  list-style-image: url('../images/cogo_check_green.svg');
-	  list-style-position: outside;
-	  padding-left:1em;
+	list-style: none;
+  list-style-position: outside;
+  padding: 0;
+  line-height: 30px;
+	}
+
+	.checkmarked .green-check {
+ background:url('../images/cogo_check_green.svg') left 7px no-repeat;
+  background-size: 15px;
+  list-style-position: outside;
+  padding-left:2em;
+}
+
+	.checkmarked p {
 
 	}
-	.checkmarked .green-check{
-	  
-	}
+
 	.l-4col {
 		width:100%;
 		display: inline-block;
