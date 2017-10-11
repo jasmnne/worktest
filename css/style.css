@@ -5,10 +5,10 @@
   --red: #d42251;
   --rich-red: #B12251;
   --white:#fff;
-  --silver:#efefef;
+  --silver:#eef3f3;
   --chrome:#ccc;
-  --concrete:#999;
-  --gray:#555555;
+  --concrete:#7e8892;
+  --gray:#4b555f;
 }
 
     html {
@@ -130,15 +130,13 @@
 	.footer-col {
 		width:100%;
 		display: inline-block;
-		margin-top:20px;
-		margin-bottom: 20px;
 
 	}
 
 	.footer-col img {
 		padding-top:10px;
-		height:80px;
-		width:100px;
+		height:60px;
+		width:80px;
 	}
 
 	.footer-col ul {
@@ -164,11 +162,19 @@
 		color: var(--green);
 	}
 
-	.footer-base {
+	.footer-base-col {
 		width:100%;
 		margin-top:20px;
 		margin-bottom: 20px;
+		text-align: left;
 	}
+
+	.footer-base-col img {
+		width:24px;
+		margin-right:20px;
+		float:left;
+	}
+
 
 	.logo {
 		width: 25%;
@@ -275,6 +281,7 @@
 	    .l-1col {
 			width: calc((12/12)*100%);
 			float:left;
+			margin-bottom: 20px;
 		}
 
 		.l-2col {
@@ -300,12 +307,21 @@
 		.footer-col {
 			width: calc((12/12)*100%);
 			float:left;
+			margin-top:0;
+			margin-bottom: 0;
 		}
 
-		.footer-base {
+		.footer-base-col {
 			width: calc((12/12)*100%);
 			float:left;
 		}
+
+		.footer-base-col img {
+			width:24px;
+			margin-left:10px;
+			float:left;
+		}
+
 
 		.logo {
 			width: calc((4/12)*100%);
@@ -362,10 +378,11 @@
 	    }
 
 	    h6 {
-	    	font-size:1em;
+	    	font-size:0.8em;
 	    	text-transform: uppercase;
 	    	font-weight: 600;
 	    	line-height: 150%;
+	    	margin-bottom: 0;
 	    } 	
 
 	    blockquote {
@@ -417,7 +434,7 @@
 			float:left;
 			min-height:15em;
 		}
-		.footer-base {
+		.footer-base-col {
 			width: calc((12/12)*100%);
 			float:left;
 		}
@@ -518,11 +535,19 @@
 		.footer-col {
 			width: calc((4/12)*100%);
 			float:left;
+			margin-top:20px;
+			margin-bottom: 20px;
 		}
-		.footer-base {
-			width: calc((12/12)*100%);
+		.footer-base-col {
+			width: calc((6/12)*100%);
 			float:left;
 		}
+		.footer-base-col img {
+			width:24px;
+			margin-left:10px;
+			float:right;
+		}
+
 
 		.logo {
 			width: calc((1/12)*100%);
@@ -623,9 +648,15 @@
 			width: calc((4/12)*100%);
 			float:left;
 		}
-		.footer-base {
-			width: calc((12/12)*100%);
+		.footer-base-col {
+			width: calc((6/12)*100%);
 			float:left;
+		}
+
+		.footer-base-col img {
+			width:18px;
+			margin-left:10px;
+			float:right;
 		}
 
 		.logo {
@@ -714,8 +745,8 @@
 			width: calc((4/12)*100%);
 			float:left;
 		}
-		.footer-base {
-			width: calc((12/12)*100%);
+		.footer-base-col {
+			width: calc((6/12)*100%);
 			float:left;
 		}
 		.logo {
@@ -804,9 +835,11 @@
 		.footer-col {
 			width: calc((2/12)*100%);
 			float:left;
+			margin-top:40px;
+			margin-bottom: 40px;
 		}
-		.footer-base {
-			width: calc((12/12)*100%);
+		.footer-base-col {
+			width: calc((6/12)*100%);
 			float:left;
 		}
 		.logo {
