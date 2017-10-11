@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" baseProfile="basic" id="Layer_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 600 600"
+	 xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D2D3D4;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:22;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#FFFFFF;stroke:#F15E4F;stroke-width:22;stroke-miterlimit:10;}
+	.st4{fill:#D2D3D4;stroke:#F15E4F;stroke-width:20.6065;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#F15E4F;stroke-width:20.6065;stroke-miterlimit:10;}
+	.st6{fill:none;}
+	.st7{fill:none;stroke:#D2D3D4;stroke-width:17;stroke-miterlimit:10;}
+	.st8{fill:#FFFFFF;stroke:#F15E4F;stroke-width:12.3068;stroke-miterlimit:10;}
+	.st9{fill:#FFFFFF;stroke:#F15E4F;stroke-width:12.1831;stroke-miterlimit:10;}
+	.st10{fill:none;stroke:#D2D3D4;stroke-width:10.0226;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:url(#SVGID_1_);stroke-width:23.0065;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#D2D3D4;stroke-width:20;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:url(#SVGID_2_);stroke-width:28.9158;stroke-miterlimit:10;}
+</style>
+<g>
+	<path class="st0" d="M209.5,353l-5.1,49.8l50-4.9C254.5,373.1,234.4,353,209.5,353z"/>
+	<path class="st0" d="M396.1,146.3l64,62.2l19.4-19.5c17.4-17.4,17.4-45.6,0-63.1l0,0c-17.4-17.4-45.6-17.4-63.1,0L396.1,146.3z"/>
+	<path class="st1" d="M298.9,138.6H129.3c-12.5,0-22.7,10.2-22.7,22.7v303.2c0,12.5,10.2,22.7,22.7,22.7l312-0.1
+		c12.5,0,22.7-10.2,22.7-22.7c0,0,0-258.5,0-259.1l16.4-16.2c17.4-17.4,17.4-45.6,0-63.1c-17.4-17.4-45.6-17.4-63.1,0l-220,221
+		l-7,70l70-7l137.2-137.8"/>
+	<circle class="st2" cx="298.9" cy="138.6" r="17.5"/>
+	<ellipse class="st2" cx="397.6" cy="272.3" rx="17.5" ry="17.5"/>
+</g>
+<line class="st0" x1="396.1" y1="146.3" x2="460.1" y2="208.4"/>
+</svg>
