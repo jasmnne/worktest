@@ -105,6 +105,11 @@
 		text-align: center;
 	}
 
+	.top-col {
+		width:100%;
+		float:left;
+	}
+
 	.l-2col {
 		width:100%;
 		display: inline-block;
@@ -319,6 +324,12 @@
 			margin-bottom: 20px;
 		}
 
+		.top-col {
+			width: calc((12/12)*100%);
+			float:left;
+			margin-bottom: 20px;
+		}
+
 		.l-2col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -490,6 +501,11 @@
 			float:left;
 		}
 
+		.top-col {
+			width: calc((10/12)*100%);
+			float:left;
+		}
+
 		.l-2col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -608,6 +624,11 @@
 			width: calc((12/12)*100%);
 			float:left;
 		}
+		.top-col {
+			width: calc((10/12)*100%);
+			float:left;
+		}
+
 		.signup input[type="text"] {
 			width: calc((4/12)*100%);
 			border-radius: 5px 0px 0px 5px;
@@ -731,6 +752,11 @@
 			float:left;
 		}
 
+		.top-col {
+			width: calc((10/12)*100%);
+			float:left;
+		}
+
 		.l-2col {
 			width: calc((6/12)*100%);
 			float:left;
@@ -834,6 +860,10 @@
 			float:left;
 		}
 
+		.top-col {
+			width: calc((10/12)*100%);
+			float:left;
+		}
 
 		.l-2col {
 			width: calc((6/12)*100%);
@@ -928,6 +958,11 @@
 
 		.signup-col {
 			width: calc((12/12)*100%);
+			float:left;
+		}
+
+		.top-col {
+			width: calc((10/12)*100%);
 			float:left;
 		}
 
