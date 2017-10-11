@@ -232,6 +232,7 @@
 	  padding:10px;
 	  -webkit-transition-duration: 0.4s; /* Safari */
 	  transition-duration: 0.4s;
+	  -webkit-appearance: none;
 	}
 
 	button { 
