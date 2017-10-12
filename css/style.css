@@ -922,11 +922,12 @@ height:auto;
 			float:left;
 		}
 		.pricing-3col {
-			width: calc((12/12)*100%);
+			width: calc((8/12)*100%);
+			margin-left: calc((2/12)*100%);
 			float:left;
 		}
 .pricing-button {
-		width: auto;
+		width: 100%;
 		margin-bottom: 0;
 	}
 
@@ -1074,6 +1075,7 @@ height:auto;
 		.pricing-3col {
 			width: calc((4/12)*100%);
 
+			margin-left: 0;
 			float:left;
 			
 		}.pricing-price {
