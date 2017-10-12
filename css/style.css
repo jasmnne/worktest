@@ -537,6 +537,11 @@ height:auto;
 	.pricing-description {
 height:auto;
 	}
+	.pricing-button {
+		width: 100%;
+		margin-bottom: 0;
+	}
+
 	
 		.l-4col {
 			width: calc((12/12)*100%);
@@ -751,6 +756,11 @@ height:auto;
 .pricing-nonhighlight{
 		margin-top:20px;
 	}
+	.pricing-button {
+		width: 100%;
+		margin-bottom: 0;
+	}
+
 
 
 		.l-4col {
@@ -915,6 +925,10 @@ height:auto;
 			width: calc((12/12)*100%);
 			float:left;
 		}
+.pricing-button {
+		width: auto;
+		margin-bottom: 0;
+	}
 
 
 
@@ -1078,6 +1092,11 @@ height:auto;
 
 .pricing-nonhighlight{
 		margin-top:10em;
+	}
+
+	.pricing-button {
+		width: 100%;
+		margin-bottom: 0;
 	}
 
 		.l-4col {
