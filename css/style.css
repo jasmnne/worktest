@@ -163,39 +163,48 @@
 
 	.pricing-content {
 		padding:20px;
-		border-radius: 0px;
+		border-radius: 0px 0px 10px 10px;
 		background-color:white;
-		-webkit-box-shadow: 0px 0px 10px 0px var(--chrome);
-		-moz-box-shadow: 0px 0px 10px 0px var(--chrome);
-		box-shadow: 0px 0px 10px 0px var(--chrome);
+
 	}
 
-	.pricing-recommended {
-		background:radial-gradient(circle, var(--blue) 75%,var(--green) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	.pricing-highlight {
+		-webkit-box-shadow: 0px 0px 20px 0px var(--chrome);
+		-moz-box-shadow: 0px 0px 20px 0px var(--chrome);
+		box-shadow: 0px 0px 20px 0px var(--chrome);
+	}
+
+	
+	.pricing-header {
 		border-radius: 10px 10px 0px 0px;
 		height:4.5em;
 		margin:0;
 		padding-top:5px;
 	}
 
+	.pricing-price {
+		height: 20em;
+	}
+
+	.pricing-description {
+		min-height:25em;
+		border-top:1px solid var(--chrome);
+	}
+
 	.pricing-button {
-border-radius: 0px 0px 10px 10px;
 		width: 100%;
 	}
 
-	.green-round-outline {
-		border:;
-		
+	.green-round-gradient {
+		background:linear-gradient(45deg, var(--green) 75%,var(--blue) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	}
 
-	.blue-round-outline {
-		border:;
-		
+	.blue-round-gradient {
+		background:linear-gradient(45deg, var(--blue) 75%,var(--purple) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	}
 
-	.purple-round-outline{
-		border:;
-	
+	.purple-round-gradient{
+		background:linear-gradient(45deg, var(--purple) 75%,var(--red) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	}
 
 	.checkmarked {
