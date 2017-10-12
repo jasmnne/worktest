@@ -4,49 +4,43 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 450 450"
 	 xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#EEF3F3;}
+	.st0{fill:#CCCCCC;}
 	.st1{fill:#41BBB9;}
 	.st2{fill:#FFFFFF;stroke:#F15E4F;stroke-width:22.0383;stroke-miterlimit:10;}
 	.st3{fill:#7E5AA6;}
-	.st4{fill:none;stroke:#FFFFFF;stroke-width:21;stroke-miterlimit:10;}
+	.st4{opacity:0.6;}
 	.st5{fill:#FFFFFF;}
-	.st6{fill:none;stroke:url(#SVGID_1_);stroke-width:28.9158;stroke-miterlimit:10;}
-	.st7{fill:none;stroke:url(#SVGID_2_);stroke-width:28.9299;stroke-miterlimit:10;}
-	.st8{fill:#CCCCCC;}
-	.st9{fill:#CCCCCC;stroke:#F15E4F;stroke-width:20.6065;stroke-miterlimit:10;}
-	.st10{fill:#FFFFFF;stroke:#F15E4F;stroke-width:20.6065;stroke-miterlimit:10;}
-	.st11{fill:none;}
-	.st12{fill:none;stroke:#EEF3F3;stroke-width:18;stroke-miterlimit:10;}
-	.st13{fill:#CCCCCC;stroke:#F15E4F;stroke-width:11.8872;stroke-miterlimit:10;}
-	.st14{fill:#FFFFFF;stroke:#F15E4F;stroke-width:11.8872;stroke-miterlimit:10;}
-	.st15{fill:#FFFFFF;stroke:#F15E4F;stroke-width:11.7676;stroke-miterlimit:10;}
-	.st16{fill:none;stroke:#FFFFFF;stroke-width:18;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:21;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:url(#SVGID_1_);stroke-width:28.9299;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FFFFFF;stroke-width:25.5;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#CCCCCC;stroke-width:18;stroke-miterlimit:10;}
+	.st10{opacity:0.6;fill:none;stroke:#FFFFFF;stroke-width:18;stroke-miterlimit:10;}
 </style>
 <g>
-	<polygon class="st0" points="400.7,80.2 120.1,80.2 128.3,38 392.5,38 	"/>
-	<circle class="st5" cx="116.6" cy="215.5" r="20.3"/>
-	<path class="st12" d="M116.6,314.1v74.1"/>
-	<path class="st12" d="M153.6,351.8c0,0-74.1,0-74.1,0"/>
-	<path class="st4" d="M156,401.7c-12.3,9.8-28.2,15.3-45.4,14.2c-33.6-2.2-60.4-30-61.3-63.7c-1-37.8,29.7-68.3,67.1-67.5
-		c36.3,0.8,65.1,30.8,64.3,67.1h204.5c8.5,0,15.5-6.9,15.5-15.5V50.5c0-8.5-6.9-15.5-15.5-15.5H132c-8.5,0-15.5,6.9-15.5,15.5v165"
-		/>
+	<g class="st4">
+		<polygon class="st5" points="400.7,80.2 120.1,80.2 128.3,38 392.5,38 		"/>
+	</g>
+	<circle class="st5" cx="116.6" cy="222.9" r="20.3"/>
+	<g class="st4">
+		<polygon class="st5" points="153.6,342.8 125.6,342.8 125.6,314.1 107.6,314.1 107.6,342.8 79.5,342.8 79.5,360.8 107.6,360.8 
+			107.6,388.2 125.6,388.2 125.6,360.8 153.6,360.8 		"/>
+	</g>
 	
 		<ellipse transform="matrix(2.086679e-02 -0.9998 0.9998 2.086679e-02 -248.8726 549.3193)" class="st5" cx="156" cy="401.7" rx="20.3" ry="20.3"/>
-	<g>
-		<line class="st12" x1="216.6" y1="303" x2="363" y2="303"/>
-		<line class="st12" x1="194.6" y1="257.9" x2="363" y2="257.9"/>
-		<line class="st12" x1="194.6" y1="212.9" x2="363" y2="212.9"/>
-		<line class="st12" x1="194.6" y1="167.9" x2="363" y2="167.9"/>
-		<line class="st12" x1="194.6" y1="122.8" x2="363" y2="122.8"/>
-	</g>
-	<g>
-		<line class="st12" x1="170.5" y1="122.8" x2="152.9" y2="122.8"/>
-		<line class="st12" x1="170.5" y1="167.9" x2="152.9" y2="167.9"/>
-		<line class="st12" x1="170.5" y1="212.9" x2="152.9" y2="212.9"/>
-		<line class="st12" x1="170.5" y1="257.9" x2="152.9" y2="257.9"/>
-	</g>
 	<circle class="st5" cx="161.7" cy="65.5" r="6.8"/>
 	<circle class="st5" cx="185.8" cy="65.5" r="6.8"/>
 	<circle class="st5" cx="209.8" cy="65.5" r="6.8"/>
 </g>
+<path class="st6" d="M156,401.7c-12.3,9.8-28.2,15.3-45.4,14.2c-33.6-2.2-60.4-30-61.3-63.7c-1-37.8,29.7-68.3,67.1-67.5
+	c36.3,0.8,65.1,30.8,64.3,67.1h204.5c8.5,0,15.5-6.9,15.5-15.5V50.5c0-8.5-6.9-15.5-15.5-15.5H132c-8.5,0-15.5,6.9-15.5,15.5v172.5"
+	/>
+<line class="st10" x1="216.6" y1="298.1" x2="363" y2="298.1"/>
+<line class="st10" x1="194.6" y1="255.3" x2="363" y2="255.3"/>
+<line class="st10" x1="194.6" y1="212.4" x2="363" y2="212.4"/>
+<line class="st10" x1="194.6" y1="169.5" x2="363" y2="169.5"/>
+<line class="st10" x1="194.6" y1="126.6" x2="363" y2="126.6"/>
+<line class="st10" x1="170.5" y1="126.6" x2="152.9" y2="126.6"/>
+<line class="st10" x1="170.5" y1="169.5" x2="152.9" y2="169.5"/>
+<line class="st10" x1="170.5" y1="212.9" x2="152.9" y2="212.9"/>
+<line class="st10" x1="170.5" y1="255.3" x2="152.9" y2="255.3"/>
 </svg>

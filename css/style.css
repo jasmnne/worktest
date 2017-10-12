@@ -161,37 +161,69 @@
 		margin-bottom: 20px;
 	}
 
+	.pricing-content {
+		padding:20px;
+		border-radius: 0px;
+		background-color:white;
+		-webkit-box-shadow: 0px 0px 10px 0px var(--chrome);
+		-moz-box-shadow: 0px 0px 10px 0px var(--chrome);
+		box-shadow: 0px 0px 10px 0px var(--chrome);
+	}
+
+	.pricing-recommended {
+		background:radial-gradient(circle, var(--blue) 75%,var(--green) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		border-radius: 10px 10px 0px 0px;
+		height:4.5em;
+		margin:0;
+		padding-top:5px;
+	}
+
+	.pricing-button {
+border-radius: 0px 0px 10px 10px;
+		width: 100%;
+	}
+
 	.green-round-outline {
-		border: 2px solid var(--green);
-		border-radius: 10px;
+		border:;
+		
 	}
 
 	.blue-round-outline {
-		border: 2px solid var(--blue);
-		border-radius: 10px;
+		border:;
+		
 	}
 
 	.purple-round-outline{
-		border: 2px solid var(--purple);
-		border-radius: 10px;
+		border:;
+	
 	}
 
 	.checkmarked {
 	list-style: none;
-  list-style-position: outside;
-  padding: 0;
-  line-height: 30px;
-	}
-
-	.checkmarked .green-check {
- background:url('../images/cogo_check_green.svg') left 7px no-repeat;
-  background-size: 15px;
-  list-style-position: outside;
-  padding-left:2em;
+	list-style-position: outside;
+	padding: 0;
+	line-height: 200%;
 }
 
-	.checkmarked p {
+	.checkmarked .green-check {
+		background:url('../images/cogo_check_green.svg') left 6px no-repeat;
+		background-size: 1em;
+		list-style-position: outside;
+		padding-left:2em;
+	}
 
+	.checkmarked .blue-check {
+		background:url('../images/cogo_check_blue.svg') left 6px no-repeat;
+		background-size: 1em;
+		list-style-position: outside;
+		padding-left:2em;
+	}
+
+	.checkmarked .purple-check {
+		background:url('../images/cogo_check_purple.svg') left 6px no-repeat;
+		background-size: 1em;
+		list-style-position: outside;
+		padding-left:2em;
 	}
 
 	.l-4col {
@@ -380,6 +412,10 @@
 	}
 	.gray {
 		color: var(--gray);
+	}
+
+	.center {
+		text-align: center;
 	}
 
 	a {
@@ -809,7 +845,7 @@
 			float:left;
 		}
 		.pricing-3col {
-			width: calc((4/12)*100%);
+			width: calc((12/12)*100%);
 			float:left;
 		}
 
@@ -949,8 +985,15 @@
 
 		.pricing-3col {
 			width: calc((4/12)*100%);
+
 			float:left;
+			
 		}
+
+		.pricing-content {
+			min-height: 40em;
+		
+	}
 
 
 		.l-4col {
