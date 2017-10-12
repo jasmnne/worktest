@@ -169,27 +169,22 @@
 	}
 
 	.pricing-highlight {
+		border-radius: 10px;
 		-webkit-box-shadow: 0px 0px 20px 0px var(--chrome);
 		-moz-box-shadow: 0px 0px 20px 0px var(--chrome);
 		box-shadow: 0px 0px 20px 0px var(--chrome);
 	}
 
 	
+	
 	.pricing-header {
 		border-radius: 10px 10px 0px 0px;
-		height:4.5em;
+		height:4em;
 		margin:0;
-		padding-top:5px;
+		padding-top:1px;
 	}
 
-	.pricing-price {
-		height: 20em;
-	}
-
-	.pricing-description {
-		min-height:25em;
-		border-top:1px solid var(--chrome);
-	}
+	
 
 	.pricing-button {
 		width: 100%;
@@ -440,6 +435,10 @@
 		width: 100%;
 	}
 
+	.signup {
+		margin-bottom:20px;
+	}
+
 	@media (min-width: 320px) {
 
 	    .l-1col {
@@ -494,8 +493,21 @@
 		.pricing-3col {
 			width: calc((12/12)*100%);
 			float:left;
+		
 		}
 
+		.pricing-price {
+height:auto;
+	}
+
+	.pricing-taller-price {
+height:auto;
+	}
+
+	.pricing-description {
+height:auto;
+	}
+	
 		.l-4col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -699,6 +711,9 @@
 			width: calc((12/12)*100%);
 			float:left;
 		}
+.pricing-nonhighlight{
+		margin-top:20px;
+	}
 
 
 		.l-4col {
@@ -859,6 +874,7 @@
 		}
 
 
+
 		.l-4col {
 			width: calc((6/12)*100%);
 			float:left;
@@ -997,13 +1013,23 @@
 
 			float:left;
 			
-		}
+		}.pricing-price {
+		min-height: 18em;
 
-		.pricing-content {
-			min-height: 40em;
-		
 	}
 
+	.pricing-taller-price {
+		min-height: 24.5em;
+	}
+
+	.pricing-description {
+		border-top:1px solid var(--chrome);
+		min-height: 29em;
+	}
+
+.pricing-nonhighlight{
+		margin-top:10em;
+	}
 
 		.l-4col {
 			width: calc((3/12)*100%);
@@ -1126,6 +1152,23 @@
 			float:left;
 		}
 
+		.pricing-price {
+		min-height: 12em;
+
+	}
+
+	.pricing-taller-price {
+		min-height: 18.5em;
+	}
+
+	.pricing-description {
+		border-top:1px solid var(--chrome);
+		min-height: 23em;
+	}
+.pricing-nonhighlight{
+		margin-top:10em;
+	}
+
 
 		.l-4col {
 			width: calc((3/12)*100%);
@@ -1238,6 +1281,23 @@
 			width: calc((4/12)*100%);
 			float:left;
 		}
+
+		.pricing-price {
+		min-height: 14em;
+
+	}
+
+	.pricing-taller-price {
+		min-height: 20.5em;
+	}
+
+	.pricing-description {
+		border-top:1px solid var(--chrome);
+		min-height: 25em;
+	}
+.pricing-nonhighlight{
+		margin-top:10em;
+	}
 
 
 		.l-4col {
