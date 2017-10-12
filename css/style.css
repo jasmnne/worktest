@@ -43,8 +43,8 @@ height: auto;
       left: 0;
       width: 100%;
       height: inherit;
-      min-height: 20em;
-      max-height: 24em;
+      min-height: 25em;
+      max-height: 30em;
   background:linear-gradient(45deg, var(--green) 15%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   background-position: center;
 
