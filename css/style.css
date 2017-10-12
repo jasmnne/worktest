@@ -46,9 +46,13 @@
 
     }
 
-    .grey-container {
+    .silver-container {
     	background-color:var(--silver);
 
+    }
+
+    .gray-container {
+    	background-color: var(--gray);
     }
 
     .blue-container {
@@ -116,6 +120,23 @@
 		margin:0 auto;
 		text-align: center;
 
+	}
+
+	.companies-col {
+		width:100%;
+		float:left;
+		margin:0 auto;
+		padding-bottom: 40px;
+		padding-top: 40px;
+		text-align: center;
+
+	}
+
+	.companies-col img{
+		width: 180px;
+		padding-left: 20px;
+		padding-right:20px;
+		padding-bottom: 40px;
 	}
 
 	.l-2col {
@@ -188,6 +209,7 @@
 
 	.pricing-button {
 		width: 100%;
+		margin-bottom: 0;
 	}
 
 	.green-round-gradient {
@@ -460,6 +482,14 @@
 			margin-bottom: 20px;		
 		}
 
+		.companies-col {
+			width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-bottom: 20px;	
+
+		}
+
 		.l-2col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -493,7 +523,7 @@
 		.pricing-3col {
 			width: calc((12/12)*100%);
 			float:left;
-		
+
 		}
 
 		.pricing-price {
@@ -675,6 +705,13 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.companies-col {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+
+		}
 
 		.l-2col {
 			width: calc((12/12)*100%);
@@ -825,6 +862,12 @@ height:auto;
 			float:left;
 		}
 		.top-col {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+		}
+		.companies-col{
 			width: calc((10/12)*100%);
 			float:left;
 			margin:0 auto;
@@ -988,6 +1031,12 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.companies-col  {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+		}
 
 		.l-2col {
 			width: calc((6/12)*100%);
@@ -1024,7 +1073,7 @@ height:auto;
 
 	.pricing-description {
 		border-top:1px solid var(--chrome);
-		min-height: 29em;
+		min-height: 32em;
 	}
 
 .pricing-nonhighlight{
@@ -1125,6 +1174,12 @@ height:auto;
 		}
 
 		.top-col {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+		}
+		.companies-col{
 			width: calc((10/12)*100%);
 			float:left;
 			margin:0 auto;
@@ -1262,6 +1317,14 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+
+		.companies-col {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+		}
+
 
 		.l-2col {
 			width: calc((6/12)*100%);
