@@ -454,12 +454,10 @@
 		color: var(--green);
 	}
 
-	.signup input {
+	.signup-form input {
 		width: 100%;
 	}
 
-	.signup {
-	}
 
 	@media (min-width: 320px) {
 
@@ -472,7 +470,6 @@
 		.signup-col {
 			width: calc((12/12)*100%);
 			float:left;
-			margin-bottom: 20px;
 		}
 
 		.top-col {
@@ -594,7 +591,7 @@ height:auto;
 			font-family: 'Work Sans', sans-serif;
 		}
 
-		.signup input[type="text"] {
+		.signup-form input[type="text"] {
 			width: 100%;
 			font-size:1em;
 			color: var(--gray);
@@ -605,7 +602,7 @@ height:auto;
 			padding:10px;
 
 		}
-		.signup input[type="submit"] {
+		.signup-form input[type="submit"] {
 			width: auto;
 			font-size:1em;
 			letter-spacing: 0.02em;
@@ -623,7 +620,7 @@ height:auto;
 			-webkit-appearance: none;
 		}
 
-		.signup input[type="submit"]:hover {
+		.signup-form input[type="submit"]:hover {
 			background: var(--rich-red);
 		}
 
@@ -703,6 +700,11 @@ height:auto;
 			width: calc((12/12)*100%);
 			float:left;
 		}
+
+		.signup-form {
+		margin-bottom: 40px;
+	}
+
 
 		.top-col {
 			width: calc((10/12)*100%);
@@ -796,12 +798,12 @@ height:auto;
 			width:80px;
 		}
 
-		.signup input[type="text"] {
+		.signup-form input[type="text"] {
 			width: calc((6/12)*100%);
 			border-radius: 5px 0px 0px 5px;
 
 		}
-		.signup input[type="submit"] {
+		.signup-form input[type="submit"] {
 			width: auto;
 			border-radius: 0px 5px 5px 0px;
 			margin-left: -5px;
@@ -884,7 +886,7 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 
-		.signup input[type="text"] {
+		.signup-form input[type="text"] {
 			width: calc((4/12)*100%);
 			border-radius: 5px 0px 0px 5px;
 
