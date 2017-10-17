@@ -513,9 +513,14 @@ height: auto;
 	  border:2px solid var(--red);
 	}
 
-	.outline-button {
+	.white-outline-button {
 		background: none;
 		border:2px solid var(--white);
+	}
+
+	.red-outline-button {
+		background: none;
+		border:2px solid var(--red);
 	}
 
 	button:hover {
