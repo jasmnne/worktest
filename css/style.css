@@ -211,6 +211,14 @@ height: auto;
 
 	}
 
+	.product-top-col {
+		width:100%;
+		float:left;
+		margin:0 auto;
+		text-align: center;
+
+	}
+
 	.companies-col {
 		width:100%;
 		float:left;
@@ -303,15 +311,27 @@ height: auto;
 	}
 
 	.green-round-gradient {
-		background:linear-gradient(45deg, var(--green) 75%,var(--blue) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--green) 50%,var(--blue) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background-position: center;
+		background-attachment: fixed;
 	}
 
 	.blue-round-gradient {
-		background:linear-gradient(45deg, var(--blue) 75%,var(--purple) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--blue) 50%,var(--purple) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background-position: center;
+		background-attachment: fixed;
 	}
 
 	.purple-round-gradient{
-		background:linear-gradient(45deg, var(--purple) 75%,var(--red) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--purple) 50%,var(--red) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background-position: center;
+		background-attachment: fixed;
+	}
+
+	.red-round-gradient{
+		background:linear-gradient(45deg, var(--rich-red) 50%,var(--red) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background-position: center;
+		background-attachment: fixed;
 	}
 
 	.checkmarked {
@@ -603,6 +623,13 @@ height: auto;
 			margin-bottom: 20px;		
 		}
 
+		.product-top-col {
+			width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-bottom: 20px;		
+		}
+
 		.companies-col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -623,7 +650,7 @@ height: auto;
 
 
 		.features-icon {
-			width: calc((2/12)*100%);
+			width: calc((3/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
@@ -846,6 +873,16 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+
+		.product-top-col {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+			padding-bottom: 20px;
+
+		}
+
 		.companies-col {
 			width: calc((10/12)*100%);
 			float:left;
@@ -865,20 +902,19 @@ height:auto;
 		}
 
 		.features-icon {
-			width: calc((1/12)*100%);
+			width: calc((1.5/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
 			margin-right: calc((0.5/12)*100%);
 			padding-top:20px;
-			min-height: 10em;
 		}
 
 		.features-list {
-			width: calc((10.5/12)*100%);
+			width: calc((10/12)*100%);
 			display: inline-block;
 			float:left;
-			min-height: 10em;
+			min-height: 8em;
 			margin-bottom:0px;
 		}
 
@@ -1022,6 +1058,14 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+
+		.product-top-col {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+		}
+
 		.companies-col{
 			width: calc((10/12)*100%);
 			float:left;
@@ -1045,17 +1089,15 @@ height:auto;
 		}
 
 		.features-icon {
-			width: calc((2/12)*100%);
+			width: calc((3/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
-			margin-right: calc((0.5/12)*100%);
 			padding-top:20px;
-			min-height: 15em;
 		}
 
 		.features-list {
-			width: calc((9.5/12)*100%);
+			width: calc((12/12)*100%);
 			display: inline-block;
 			float:left;
 			min-height: 15em;
@@ -1195,6 +1237,12 @@ height:auto;
 		}
 
 		.top-col {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+		}
+		.product-top-col {
 			width: calc((10/12)*100%);
 			float:left;
 			margin:0 auto;
@@ -1362,6 +1410,13 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+
+		.product-top-col {
+			width: calc((8/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((2/12)*100%);
+		}
 		.companies-col{
 			width: calc((10/12)*100%);
 			float:left;
@@ -1380,20 +1435,18 @@ height:auto;
 		}
 
 		.features-icon {
-			width: calc((1.5/12)*100%);
+			width: calc((2/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
-			margin-right: calc((0.5/12)*100%);
 			padding-top:20px;
-			min-height: 12em;
 		}
 
 		.features-list {
-			width: calc((10/12)*100%);
+			width: calc((12/12)*100%);
 			display: inline-block;
 			float:left;
-			min-height: 12em;
+			min-height: 10em;
 		}
 	
 
@@ -1526,6 +1579,13 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 
+		.product-top-col {
+			width: calc((8/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((2/12)*100%);
+		}
+
 		.companies-col {
 			width: calc((10/12)*100%);
 			float:left;
@@ -1544,20 +1604,20 @@ height:auto;
 		}
 
 		.features-icon {
-			width: calc((1.5/12)*100%);
+			width: calc((2/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
-			margin-right: calc((0.5/12)*100%);
 			padding-top:20px;
-			min-height: 10em;
 		}
 
 		.features-list {
-			width: calc((10/12)*100%);
+			width: calc((12/12)*100%);
+			margin-right: calc((0/12)*100%);
+
 			display: inline-block;
 			float:left;
-			min-height: 10em;
+			min-height: 12em;
 		}
 
 		.l-3col {
