@@ -89,7 +89,7 @@ height: auto;
 		top:0;
 		left:0;
 		-webkit-text-size-adjust: 100%;
-
+		-webkit-font-smoothing:antialiased;
     }
 
 	*,
