@@ -329,7 +329,7 @@ height: auto;
 	}
 
 	.red-round-gradient{
-		background:linear-gradient(45deg, var(--rich-red) 50%,var(--red) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--rich-red) 75%,var(--red) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		background-position: center;
 		background-attachment: fixed;
 	}
