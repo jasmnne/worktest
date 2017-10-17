@@ -311,17 +311,17 @@ height: auto;
 	}
 
 	.green-round-gradient {
-		background:linear-gradient(45deg, var(--green) 50%,var(--blue) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--green) 75%,var(--blue) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		background-position: center;
 	}
 
 	.blue-round-gradient {
-		background:linear-gradient(45deg, var(--blue) 50%,var(--purple) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--blue) 75%,var(--purple) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		background-position: center;
 	}
 
 	.purple-round-gradient{
-		background:linear-gradient(45deg, var(--purple) 50%,var(--red) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		background:linear-gradient(45deg, var(--purple) 75%,var(--red) 150%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		background-position: center;
 	}
 
