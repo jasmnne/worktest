@@ -26,8 +26,25 @@
 /* ---- particles.js container ---- */
 
 #particles-hero {
-      position:relative;  height: auto;
+      position:relative;
 
+
+}
+
+#particles-hero-full {
+      		height: 100vh;
+
+}
+
+
+
+#particles-gradient-full {
+      display:table-cell;
+		vertical-align:middle;
+		width: 100%;
+		float:left;
+		margin:0 auto;
+		text-align: center;
 
 }
 
@@ -72,6 +89,45 @@ height: auto;
 
 
 
+
+@keyframes circle {
+	from {
+		transform: scale(1)
+	}
+	to {
+		transform: scale(3)
+	}
+}
+.left {
+  margin: 0 auto;
+  width: 10em;
+  height: 10em;
+  border-radius: 0%;
+  left: -5em;
+  top:-5em;
+}
+.right {
+  margin: 0 auto;
+  width: 10em;
+  height: 10em;
+  border-radius: 0%;
+  left: 5em;
+  top:-5em;
+}
+.one{
+	border-radius: 50%;background-color: var(--green);
+	opacity: 0.9;
+	transition: all 0.3s ease-in-out;
+	animation: circle 10s infinite;
+	animation-direction:alternate;
+  	border-radius: 50%;
+  	width: 10em;
+  height: 10em;
+}
+
+.one:hover {
+	background-color: var(--blue);
+}
 
 
 
@@ -120,13 +176,59 @@ height: auto;
 
     .white-container {
     	background-color:var(--white);
+    }
 
+    .white-container-slant {
+    	 -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  transform: skewY(3deg);
+
+    }
+
+
+    .white-container-bg-slant {
+    	background-color:var(--white);
+    	-webkit-transform: skewY(-3deg);
+    	-moz-transform: skewY(-3deg);
+    	-ms-transform: skewY(-3deg);
+    	-o-transform: skewY(-3deg);
+    	transform: skewY(-3deg);
+    	padding-top: 100px;
+    	padding-bottom: 150px;
+    	margin-bottom:-100px;
+
+    	
     }
 
     .silver-container {
     	background-color:var(--silver);
 
     }
+
+    .silver-container-slant {
+    	 -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+
+    }
+
+    .silver-container-bg-slant {
+    	background-color:var(--silver);
+    	-webkit-transform: skewY(3deg);
+    	-moz-transform: skewY(3deg);
+    	-ms-transform: skewY(3deg);
+    	-o-transform: skewY(3deg);
+    	transform: skewY(3deg);
+    	padding-top: 100px;
+    	padding-bottom: 150px;
+    	margin-bottom:-100px;
+
+    }
+
     .chrome-container {
     	background-color:var(--chrome);
 
@@ -212,6 +314,16 @@ height: auto;
 
 	}
 
+	.top-col-hero {
+		display:table-cell;
+		vertical-align:middle;
+		height: 100vh;
+		width: 100%;
+		float:left;
+		margin:0 auto;
+		text-align: center;
+}
+
 	.product-top-col {
 		width:100%;
 		float:left;
@@ -245,6 +357,18 @@ height: auto;
 		border:1px solid var(--green);
 	}
 	.features-2col {
+		width:100%;
+		display: inline-block;
+		margin-top:0px;
+		margin-bottom: 0px;
+	}
+
+	.features-2col img {
+		padding-top:20px;
+		padding-bottom:20px;
+		max-width:380px;
+	}
+	.features-4col {
 		width:100%;
 		display: inline-block;
 		margin-top:0px;
@@ -612,8 +736,28 @@ height: auto;
 	}
 
 
-	@media (min-width: 320px) {
 
+	@media (min-width: 320px) {
+    .silver-container-bg-slant {
+    	padding-top:40px;
+    }
+    .white-container-bg-slant {
+    	padding-top:40px;
+    }
+
+    .left-text {
+    	float: right;
+		display: inline;
+
+	}
+
+	.right-image {
+		float:left;
+		display: inline;
+		
+	}
+
+		
 	    .l-1col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -656,10 +800,14 @@ height: auto;
 			width: calc((12/12)*100%);
 			float:left;
 		}
+		.features-4col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
 
 
 		.features-icon {
-			width: calc((3/12)*100%);
+			width: calc((2/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
@@ -795,13 +943,13 @@ height:auto;
 		}
 
 		h1 {
-	    	font-size:1.75em;
+	    	font-size:2em;
 	    	font-weight:700;
 	    	line-height: 125%;
 	    }
 
 	    h2 {
-	    	font-size:1.5em;
+	    	font-size:1.75em;
 	    	font-weight:500;
 	    	letter-spacing: -0.02em;
 	    	line-height: 125%;
@@ -861,6 +1009,9 @@ height:auto;
 
     @media (min-width: 500px) {
 
+
+
+
     	.l-1col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -905,6 +1056,11 @@ height:auto;
 			float:left;
 		}
 		.features-2col {
+			width: calc((12/12)*100%);
+			float:left;
+
+		}
+		.features-4col {
 			width: calc((12/12)*100%);
 			float:left;
 
@@ -1004,7 +1160,7 @@ height:auto;
 	    }
 
 	    h2 {
-	    	font-size:1.5em;
+	    	font-size:1.75em;
 	    	font-weight:500;
 	    	letter-spacing: -0.02em;
 	    	line-height: 125%;
@@ -1096,9 +1252,13 @@ height:auto;
 			width: calc((6/12)*100%);
 			float:left;
 		}
+		.features-4col {
+			width: calc((6/12)*100%);
+			float:left;
+		}
 
 		.features-icon {
-			width: calc((3/12)*100%);
+			width: calc((1.5/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
@@ -1106,10 +1266,10 @@ height:auto;
 		}
 
 		.features-list {
-			width: calc((12/12)*100%);
+			width: calc((10/12)*100%);
 			display: inline-block;
 			float:left;
-			min-height: 15em;
+			min-height: 16em;
 		}
 
 	
@@ -1186,7 +1346,7 @@ height:auto;
 	    }
 
 	    h2 {
-	    	font-size:1.5em;
+	    	font-size:2em;
 	    	font-weight:500;
 	    	letter-spacing: -0.02em;
 	    	line-height: 125%;
@@ -1273,7 +1433,25 @@ height:auto;
 			width: calc((6/12)*100%);
 			float:left;
 		}
+		.features-4col {
+			width: calc((6/12)*100%);
+			float:left;
+		}
 
+		.features-icon {
+			width: calc((1.5/12)*100%);
+			display: inline-block;
+			float:left;
+			clear: both;
+			padding-top:20px;
+		}
+
+		.features-list {
+			width: calc((10/12)*100%);
+			display: inline-block;
+			float:left;
+			min-height: 15em;
+		}
 		
 
 		
@@ -1358,7 +1536,7 @@ height:auto;
 	    }
 
 	    h2 {	
-    		font-size:2em;
+    		font-size:2.25em;
     	}
 
     	h3 {
@@ -1442,9 +1620,13 @@ height:auto;
 			width: calc((6/12)*100%);
 			float:left;
 		}
+		.features-4col {
+			width: calc((3/12)*100%);
+			float:left;
+		}
 
 		.features-icon {
-			width: calc((2/12)*100%);
+			width: calc((3/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
@@ -1612,8 +1794,13 @@ height:auto;
 			float:left;
 		}
 
+		.features-4col {
+			width: calc((3/12)*100%);
+			float:left;
+		}
+
 		.features-icon {
-			width: calc((2/12)*100%);
+			width: calc((3/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
@@ -1623,7 +1810,6 @@ height:auto;
 		.features-list {
 			width: calc((12/12)*100%);
 			margin-right: calc((0/12)*100%);
-
 			display: inline-block;
 			float:left;
 			min-height: 12em;
