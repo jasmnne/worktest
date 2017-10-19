@@ -375,6 +375,8 @@ height: auto;
 		margin-bottom: 0px;
 	}
 
+
+
 	.features-icon {
 		width:100%
 		display: inline-block;
@@ -959,7 +961,7 @@ height:auto;
 	    	font-size:1.25em;
 	    	font-weight:600;
 	    	letter-spacing: -0.02em;
-	    	line-height: 150%;
+	    	line-height: 135%;
 	    }
 
 	    h4 {
@@ -967,7 +969,7 @@ height:auto;
 	    	font-size:1em;
 	    	font-weight:600;
 	    	letter-spacing: 0.25em;
-	    	line-height: 150%;
+	    	line-height: 135%;
 	    }
 
 	    h5 {
@@ -975,14 +977,14 @@ height:auto;
 	    	font-size:1em;
 	    	font-weight:400;
 	    	letter-spacing: 0.25em;
-	    	line-height: 150%;
+	    	line-height: 135%;
 	    }
 
 	    h6 {
 	    	font-size:0.8em;
 	    	text-transform: uppercase;
 	    	font-weight: 600;
-	    	line-height: 150%;
+	    	line-height: 135%;
 	    	margin-bottom: 0;
 	    } 	
 
@@ -991,19 +993,19 @@ height:auto;
 	    	margin-left:0;
 	    	margin-right: 0;
 
-	    	line-height: 150%;
+	    	line-height: 145%;
 	    }
 
 	    p {
-	    	font-size: 1em;
+	    	font-size: 0.9em;
 	    	font-weight: 400;
-	    	line-height: 150%;
+	    	line-height: 145%;
 	    }
 
 	    small {
 	    	font-size:0.75em;
 	    	font-weight: 400;
-	    	line-height:150%;
+	    	line-height:145%;
 	    }
 	}
 
@@ -1201,7 +1203,7 @@ height:auto;
     	}
     
 	    p {
-	    	font-size:1em;
+	    	font-size:0.9em;
     	}
 
     }
@@ -1387,7 +1389,7 @@ height:auto;
     	}
     
 	    p {
-	    	font-size:1em;
+	    	font-size:0.9em;
     	}
 
 
@@ -1574,7 +1576,7 @@ height:auto;
     	}
     
 	    p {
-	    	font-size:1em;
+	    	font-size:0.9em;
     	}
 
     }
@@ -1746,7 +1748,7 @@ height:auto;
     	}
     
 	    p {
-	    	font-size:1em;
+	    	font-size:0.9em;
     	}
 
     }
@@ -1913,7 +1915,7 @@ height:auto;
 	    }
 
 	    p {
-	    	font-size:1em;
+	    	font-size:0.9em;
 
 	    }
 
