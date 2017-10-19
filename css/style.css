@@ -90,53 +90,6 @@ height: auto;
 
 
 
-@keyframes circle {
-	from {
-		transform: scale(1)
-	}
-	to {
-		transform: scale(3)
-	}
-}
-.left {
-  margin: 0 auto;
-  width: 10em;
-  height: 10em;
-  border-radius: 0%;
-  left: -5em;
-  top:-5em;
-}
-.right {
-  margin: 0 auto;
-  width: 10em;
-  height: 10em;
-  border-radius: 0%;
-  left: 5em;
-  top:-5em;
-}
-.one{
-	border-radius: 50%;background-color: var(--green);
-	opacity: 0.9;
-	transition: all 0.3s ease-in-out;
-	animation: circle 10s infinite;
-	animation-direction:alternate;
-  	border-radius: 50%;
-  	width: 10em;
-  height: 10em;
-}
-
-.one:hover {
-	background-color: var(--blue);
-}
-
-
-
-
-
-
-
-
-
 
     html {
     	font-family: 'Work Sans', arial, sans-serif;
@@ -313,7 +266,13 @@ height: auto;
 		text-align: center;
 
 	}
+.top-5col {
+		width:100%;
+		float:left;
+		margin:0 auto;
+		text-align: center;
 
+	}
 	.top-col-hero {
 		display:table-cell;
 		vertical-align:middle;
@@ -369,6 +328,12 @@ height: auto;
 		max-width:380px;
 	}
 	.features-4col {
+		width:100%;
+		display: inline-block;
+		margin-top:0px;
+		margin-bottom: 0px;
+	}
+	.features-5col {
 		width:100%;
 		display: inline-block;
 		margin-top:0px;
@@ -719,6 +684,9 @@ height: auto;
 		color: var(--ink);
 	}
 
+	.left {
+		text-align: left;
+	}
 
 	.center {
 		text-align: center;
@@ -777,6 +745,12 @@ height: auto;
 			margin:0 auto;
 			margin-bottom: 20px;		
 		}
+		.top-5col {
+			width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-bottom: 20px;		
+		}
 
 		.product-top-col {
 			width: calc((12/12)*100%);
@@ -803,6 +777,11 @@ height: auto;
 			float:left;
 		}
 		.features-4col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
+		.features-5col {
 			width: calc((12/12)*100%);
 			float:left;
 		}
@@ -1035,6 +1014,11 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.top-5col {
+			width: calc((6/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
 
 		.product-top-col {
 			width: calc((10/12)*100%);
@@ -1063,6 +1047,11 @@ height:auto;
 
 		}
 		.features-4col {
+			width: calc((12/12)*100%);
+			float:left;
+
+		}
+		.features-5col {
 			width: calc((12/12)*100%);
 			float:left;
 
@@ -1225,6 +1214,11 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.top-5col {
+			width: calc((6/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
 
 		.product-top-col {
 			width: calc((10/12)*100%);
@@ -1256,6 +1250,10 @@ height:auto;
 		}
 		.features-4col {
 			width: calc((6/12)*100%);
+			float:left;
+		}
+		.features-5col {
+			width: calc((4/12)*100%);
 			float:left;
 		}
 
@@ -1413,6 +1411,11 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.top-5col {
+			width: calc((4/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
 		.product-top-col {
 			width: calc((10/12)*100%);
 			float:left;
@@ -1437,6 +1440,10 @@ height:auto;
 		}
 		.features-4col {
 			width: calc((6/12)*100%);
+			float:left;
+		}
+		.features-5col {
+			width: calc((4/12)*100%);
 			float:left;
 		}
 
@@ -1599,6 +1606,24 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.top-5col {
+			width: calc((4/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
+		.top-2col {
+			width: calc((5/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
+
+		.top-2col-wrap {
+			width: calc((10/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-left: calc((1/12)*100%);
+		}
+
 
 		.product-top-col {
 			width: calc((8/12)*100%);
@@ -1624,6 +1649,10 @@ height:auto;
 		}
 		.features-4col {
 			width: calc((3/12)*100%);
+			float:left;
+		}
+		.features-5col {
+			width: calc((2.4/12)*100%);
 			float:left;
 		}
 
@@ -1771,6 +1800,11 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.top-5col {
+			width: calc((2.4/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
 
 		.product-top-col {
 			width: calc((8/12)*100%);
@@ -1798,6 +1832,10 @@ height:auto;
 
 		.features-4col {
 			width: calc((3/12)*100%);
+			float:left;
+		}
+		.features-5col {
+			width: calc((2.4/12)*100%);
 			float:left;
 		}
 
