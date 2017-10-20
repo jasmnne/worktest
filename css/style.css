@@ -300,7 +300,7 @@ height: auto;
 		float:left;
 		margin:0 auto;
 		text-align: center;
-		padding-top:40px;
+		padding-top:80px;
 		padding-bottom: 60px;
 
 	}
@@ -916,6 +916,7 @@ height: auto;
 		.features-2col {
 			width: calc((12/12)*100%);
 			float:left;
+			text-align: center;
 		}
 		.features-4col {
 			width: calc((12/12)*100%);
@@ -929,16 +930,17 @@ height: auto;
 
 
 		.features-icon {
-			width: calc((2/12)*100%);
+			width: calc((1.5/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
 			padding-top: 20px;
+			margin-right: calc((0.5/12)*100%);
 
 		}
 
 		.features-list {
-			width: calc((12/12)*100%);
+			width: calc((10/12)*100%);
 			display: inline-block;
 			float:left;
 			padding-bottom:20px;
@@ -1212,6 +1214,7 @@ height:auto;
 		.features-2col {
 			width: calc((12/12)*100%);
 			float:left;
+			text-align: center;
 
 		}
 		.features-4col {
@@ -1441,6 +1444,7 @@ height:auto;
 		.features-2col {
 			width: calc((6/12)*100%);
 			float:left;
+			text-align: left;
 		}
 		.features-4col {
 			width: calc((6/12)*100%);
@@ -1610,9 +1614,10 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 		.testimonial {
-			width: calc((12/12)*100%);
+			width: calc((10/12)*100%);
 			float:left;
 			margin:0 auto;
+			margin-left: calc((1/12)*100%);
 		}
 		.top-5col {
 			width: calc((4/12)*100%);
@@ -1827,9 +1832,11 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 		.testimonial {
-			width: calc((12/12)*100%);
+			width: calc((8/12)*100%);
 			float:left;
 			margin:0 auto;
+			margin-left: calc((2/12)*100%);
+
 		}
 		.top-5col {
 			width: calc((4/12)*100%);
@@ -2044,9 +2051,10 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 		.testimonial {
-			width: calc((12/12)*100%);
+			width: calc((8/12)*100%);
 			float:left;
 			margin:0 auto;
+			margin-left: calc((2/12)*100%);
 		}
 		.top-5col {
 			width: calc((2.4/12)*100%);
