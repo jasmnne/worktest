@@ -6,18 +6,47 @@
   --rich-red: #B12251;
   --white:#fff;
   --silver:#eef3f3;
+  --mist: #aaa;
   --chrome:#ccc;
   --concrete:#7e8892;
   --gray:#4b555f;
   --ink:#1f243c;
 }
 
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
 
 
+.carousel {
+
+background: var(--silver);
+  border-radius: 1em;
+}
+
+.carousel-cell {
+  width: 100%;
+  margin-right: 10em;
+  
+  counter-increment: carousel-cell;
+  height: auto;
 
 
+		
+}
 
+.carousel-speechbubble {
+	float: left;
+	padding-left: calc((1.5/12)*100%);
+}
 
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  color: var(--gray);
+}
 
 
 
@@ -63,8 +92,8 @@ height: auto;
       height: inherit;
       min-height: 25em;
       height: 100%;
-        background:linear-gradient(45deg, var(--green) 15%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  background-position: center;
+      background:linear-gradient(45deg, var(--green) 15%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      background-position: center;
 
 
 
@@ -266,6 +295,35 @@ height: auto;
 		text-align: center;
 
 	}
+	.testimonial {
+		width:100%;
+		float:left;
+		margin:0 auto;
+		text-align: center;
+		padding-top:40px;
+		padding-bottom: 60px;
+
+	}
+
+	
+
+	.testimonial_person{
+		display: inline-block;
+		padding-bottom: 10px;
+	}
+	.testimonial_photo {
+		float: left;
+		padding-right: 1em;
+	}
+	.testimonial_photo img {
+		width: 5em;
+		border-radius: 50%;
+	}
+	.testimonial_name {
+		padding-top: 0.5em;
+		float: right;
+		text-align: left;
+	}
 .top-5col {
 		width:100%;
 		float:left;
@@ -295,7 +353,7 @@ height: auto;
 		width:100%;
 		float:left;
 		margin:0 auto;
-		padding-bottom: 60px;
+		padding-bottom: 40px;
 		padding-top: 20px;
 		text-align: center;
 
@@ -305,7 +363,8 @@ height: auto;
 		width: 180px;
 		padding-left: 20px;
 		padding-right:20px;
-		padding-bottom: 40px;
+		padding-bottom: 20px;
+		padding-top: 20px;
 	}
 
 	.l-2col {
@@ -315,6 +374,59 @@ height: auto;
 		margin-bottom: 20px;
 		border:1px solid var(--green);
 	}
+
+	.selector-2col-wrap {
+		width:100%;
+		display: inline-block;
+		margin-top:20px;
+		margin-bottom: 40px;
+	}
+
+	.selector-2col {
+		width:100%;
+		display: inline-block;
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+
+	.selector-4col {
+		width:100%;
+		display: inline-block;
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+
+	.selector-content {
+		padding:20px;
+		border-radius: 0px 0px 10px 10px;
+		border-radius: 0.5em;
+		
+	}
+
+	.selector-content:hover {
+		-webkit-box-shadow: 0px 0px 20px 0px var(--concrete);
+		-moz-box-shadow: 0px 0px 20px 0px var(--concrete);
+		box-shadow: 0px 0px 20px 0px var(--concrete);
+		
+	}
+
+	.flatlay-img  {
+		-webkit-box-shadow: 0px 0px 36px 0px var(--mist);
+		-moz-box-shadow: 0px 0px 36px 0px var(--mist);
+		box-shadow: 0px 0px 36px 0px var(--mist);
+		border-radius:0.3em;
+		margin-top:40px;
+		margin-bottom: 20px;
+		padding:0;
+		max-width:40em;
+	}
+
+	.round-img {
+		padding-top:20px;
+		padding-bottom:20px;
+		max-width:380px;
+	}
+	
 	.features-2col {
 		width:100%;
 		display: inline-block;
@@ -323,9 +435,7 @@ height: auto;
 	}
 
 	.features-2col img {
-		padding-top:20px;
-		padding-bottom:20px;
-		max-width:380px;
+	
 	}
 	.features-4col {
 		width:100%;
@@ -362,6 +472,13 @@ height: auto;
 		margin-top:20px;
 		margin-bottom: 20px;
 		border:1px solid var(--green);
+	}
+
+	.compare-3col {
+		width:100%;
+		display: inline-block;
+		margin-top:20px;
+		margin-bottom: 20px;
 	}
 
 	.pricing-3col {
@@ -743,8 +860,19 @@ height: auto;
 			width: calc((12/12)*100%);
 			float:left;
 			margin:0 auto;
-			margin-bottom: 20px;		
+			margin-bottom:0 ;
+			padding-top:20px;		
 		}
+		.testimonial {
+		width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+			margin-bottom: 20px;		
+
+	}
+	.testimonial_quotes {
+		padding:0 1em 0 1em;
+	}
 		.top-5col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -770,6 +898,19 @@ height: auto;
 		.l-2col {
 			width: calc((12/12)*100%);
 			float:left;
+		}
+		.selector-4col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+		.selector-2col-wrap {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+		.selector-2col {
+			width: calc((12/12)*100%);
+			float:left;
+
 		}
 
 		.features-2col {
@@ -806,6 +947,12 @@ height: auto;
 		.l-3col {
 			width: calc((12/12)*100%);
 			float:left;
+		}
+
+		.compare-3col {
+			width: calc((12/12)*100%);
+			float:left;
+
 		}
 
 		.pricing-3col {
@@ -1014,6 +1161,14 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.testimonial {
+			width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
+		.testimonial_quotes {
+		padding:0 5em 0 5em;
+	}
 		.top-5col {
 			width: calc((6/12)*100%);
 			float:left;
@@ -1041,6 +1196,19 @@ height:auto;
 			width: calc((12/12)*100%);
 			float:left;
 		}
+		.selector-4col {
+			width: calc((6/12)*100%);
+			float:left;
+		}
+		.selector-2col-wrap {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+		.selector-2col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
 		.features-2col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -1075,6 +1243,10 @@ height:auto;
 		}
 
 		.l-3col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+		.compare-3col {
 			width: calc((12/12)*100%);
 			float:left;
 		}
@@ -1214,6 +1386,14 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.testimonial {
+			width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
+		.testimonial_quotes {
+		padding:0 10em 0 10em;
+	}
 		.top-5col {
 			width: calc((6/12)*100%);
 			float:left;
@@ -1244,6 +1424,20 @@ height:auto;
 			width: calc((6/12)*100%);
 			float:left;
 		}
+		.selector-4col {
+			width: calc((3/12)*100%);
+			float:left;
+		}
+		.selector-2col-wrap {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+		.selector-2col {
+			width: calc((6/12)*100%);
+			float:left;
+		}
+		
+
 		.features-2col {
 			width: calc((6/12)*100%);
 			float:left;
@@ -1274,6 +1468,10 @@ height:auto;
 
 	
 		.l-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+		.compare-3col {
 			width: calc((4/12)*100%);
 			float:left;
 		}
@@ -1411,6 +1609,11 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.testimonial {
+			width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
 		.top-5col {
 			width: calc((4/12)*100%);
 			float:left;
@@ -1430,6 +1633,18 @@ height:auto;
 		}
 
 		.l-2col {
+			width: calc((6/12)*100%);
+			float:left;
+		}
+		.selector-4col {
+			width: calc((3/12)*100%);
+			float:left;
+		}
+		.selector-2col-wrap {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+		.selector-2col {
 			width: calc((6/12)*100%);
 			float:left;
 		}
@@ -1466,6 +1681,11 @@ height:auto;
 		
 
 		.l-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
+		.compare-3col {
 			width: calc((4/12)*100%);
 			float:left;
 		}
@@ -1606,6 +1826,11 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.testimonial {
+			width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
 		.top-5col {
 			width: calc((4/12)*100%);
 			float:left;
@@ -1642,6 +1867,19 @@ height:auto;
 			width: calc((6/12)*100%);
 			float:left;
 		}
+		.selector-4col {
+			width: calc((3/12)*100%);
+			float:left;
+		}
+		.selector-2col-wrap {
+			width: calc((8/12)*100%);
+			float:left;
+			margin-left: calc((2/12)*100%);
+		}
+		.selector-2col {
+			width: calc((6/12)*100%);
+			float:left;
+		}
 
 		.features-2col {
 			width: calc((6/12)*100%);
@@ -1673,6 +1911,11 @@ height:auto;
 	
 
 		.l-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
+		.compare-3col {
 			width: calc((4/12)*100%);
 			float:left;
 		}
@@ -1800,6 +2043,11 @@ height:auto;
 			margin:0 auto;
 			margin-left: calc((1/12)*100%);
 		}
+		.testimonial {
+			width: calc((12/12)*100%);
+			float:left;
+			margin:0 auto;
+		}
 		.top-5col {
 			width: calc((2.4/12)*100%);
 			float:left;
@@ -1823,6 +2071,13 @@ height:auto;
 
 		.l-2col {
 			width: calc((6/12)*100%);
+			float:left;
+		}
+		
+		
+
+		.selector-4col {
+			width: calc((3/12)*100%);
 			float:left;
 		}
 		.features-2col {
@@ -1856,6 +2111,11 @@ height:auto;
 		}
 
 		.l-3col {
+			width: calc((4/12)*100%);
+			float:left;
+		}
+
+		.compare-3col {
 			width: calc((4/12)*100%);
 			float:left;
 		}
