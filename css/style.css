@@ -526,7 +526,7 @@ background: var(--silver);
 		box-shadow: 0px 0px 36px 0px var(--mist);
 		border-radius:0.3em;
 		margin-top:40px;
-		margin-bottom: 80px;
+		margin-bottom: 20px;
 		padding:0;
 		max-width:40em;
 	}
@@ -660,7 +660,7 @@ background: var(--silver);
 		width:100%;
 		display: inline-block;
 		margin-top:20px;
-		margin-bottom: 20px;
+		margin-bottom: ;
 	}
 
 	.pricing-3col {
