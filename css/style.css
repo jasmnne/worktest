@@ -745,6 +745,11 @@ background: var(--silver);
 		margin-bottom: 0;
 	}
 
+	.green-highlight {
+		border-bottom: var(--green) 5px solid; 
+		padding:2px;
+	}
+
 	.green-round-gradient {
 		background:linear-gradient(45deg, var(--green) 75%,var(--blue) 125%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		background-position: center;
