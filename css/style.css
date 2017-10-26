@@ -1422,7 +1422,7 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 		.left-top-col {
-			width: calc((12/12)*100%);
+			width: calc((10/12)*100%);
 			float:left;
 			margin:0 auto;	
 		}
@@ -1703,7 +1703,7 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 		.left-top-col {
-			width: calc((12/12)*100%);
+			width: calc((10/12)*100%);
 			float:left;
 			margin:0 auto;	
 		}
@@ -1991,8 +1991,8 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 		.left-top-col {
-			width: calc((10/12)*100%);
-			margin-right: calc((2/12)*100%);
+			width: calc((8/12)*100%);
+			margin-right: calc((4/12)*100%);
 			float:left;
 			margin:0 auto;	
 		}
@@ -2259,8 +2259,8 @@ height:auto;
 			margin-left: calc((1/12)*100%);
 		}
 		.left-top-col {
-			width: calc((10/12)*100%);
-			margin-right: calc((2/12)*100%);
+			width: calc((8/12)*100%);
+			margin-right: calc((4/12)*100%);
 			float:left;
 			margin:0 auto;	
 		}
