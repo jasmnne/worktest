@@ -230,7 +230,7 @@
     		display: table;
     	}
 
-    	
+
 
 
     	.home-work-content {
@@ -469,6 +469,8 @@ background: var(--silver);
   width: 100%;
   height: inherit;
   height: 100vh;
+
+  
   background: linear-gradient(45deg, var(--green) 0%, var(--bluegray) 95%);
   background-position: center;
 }
