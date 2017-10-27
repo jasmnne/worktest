@@ -19,17 +19,29 @@
   
     	}
 
+    	.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    	}
+
     	@media (min-width: 320px) {
 
     		.home-intro-container {
     		background-image: url(images/cogo_illustration_home_full.svg);
     		background-size: cover;
     		background-position: center;
-    		background-attachment: fixed;
+    		background-attachment: scroll;
     		width: 100%;
     		height: auto;
     		display: table;
   
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 75%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     		}
 
     	}
@@ -40,11 +52,17 @@
     		background-image: url(images/cogo_illustration_home_full.svg);
     		background-size: cover;
     		background-position: center;
-    		background-attachment: fixed;
+    		background-attachment: scroll;
     		width: 100%;
     		height: auto;
     		display: table;
   
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 50%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     		}
 
     	}
@@ -62,6 +80,12 @@
   
     		}
 
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
     	}
 
     	@media (min-width: 810px) {
@@ -77,6 +101,14 @@
   
     		}
 
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
+
+
     	}
 
     	@media (min-width: 970px) {
@@ -87,9 +119,15 @@
     		background-position: center;
     		background-attachment: fixed;
     		width: 100%;
-    		height: 100vh;
+    		height: auto;
     		display: table;
   
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     		}
 
     	}
@@ -105,6 +143,12 @@
     		height: 100vh;
     		display: table;
   
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     		}
 
     	}
@@ -203,7 +247,7 @@
 
       			<div class="grid-item product-top-col center">
 
-      				<img src="images/cogo_search_file.svg" style="width: 6em;"></a>
+      				<img src="images/cogo_search_file.svg" style="width: 6em; padding-top:40px;"></a>
 
 					<h2 class="white">Can’t find that important case study, again?!</h2>
 
