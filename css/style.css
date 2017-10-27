@@ -27,7 +27,7 @@
 /* tabs */
 
 .tabs {
-    width: ;
+    width: auto;
     display: ;
     list-style: none;
     margin: 0;
@@ -43,12 +43,16 @@
     color: var(--white);
     min-height: 8em;*/
 
-     width: calc((4/12)*100%);
+    /* width: calc((3/12)*100%);
     float: left;
-    margin-bottom:calc((1/12)*100%);
     cursor: pointer;
     border-radius: 0.3em;
-    color: var(--white);
+    color: var(--white);*/
+
+    
+    cursor: pointer;
+    color: var(--concrete);
+    min-height: 2.5em;
 }
 
 #defaultOpen {
@@ -62,13 +66,19 @@
     border-top: 1px solid var(--green);
     border-bottom: 1px solid var(--green);
     background-color: var(--silver);*/
-    padding-left:10px;
+    /* padding-left:10px;
     opacity:0.75;
-    -webkit-transition: padding-left 0.5s; /* Safari */
+    -webkit-transition: padding-left 0.5s;
     transition: padding-left 0.5s;
     color: var(--white);
-   /* background:linear-gradient(45deg, var(--green) 15%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   background:linear-gradient(45deg, var(--green) 15%,var(--blue) 75%,var(--purple) 95%,var(--red) 115%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
    */   
+
+
+
+    padding-bottom:10px;
+    color: var(--blue);
+    border-bottom: 2px solid var(--blue);
 }
 
 .tabs-container {
@@ -76,8 +86,8 @@
 }
 
 .tabs-inline {
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:12px;
+    padding-right:12px;
     display: inline-block;
     margin: 0 auto;
 
@@ -98,7 +108,6 @@
     border-bottom: 1px solid var(--green);
     background-color: var(--silver);*/
     padding-bottom:10px;
-
     color: var(--blue);
     border-bottom: 2px solid var(--blue);
 }
@@ -580,7 +589,7 @@ background: var(--silver);
 		width:100%;
 		display: inline-block;
 		padding-top:0px;
-		padding-bottom:10px;
+		padding-bottom:0px;
 	}
 
 	.selector-2col {
@@ -644,6 +653,7 @@ background: var(--silver);
 		padding-top:20px;
 		padding-bottom:20px;
 		max-width:380px;
+		margin: 0 auto;
 	}
 
 	.companies-img {
@@ -670,7 +680,7 @@ background: var(--silver);
 
 	.integrations-img {
 		width:40px;
-		margin: 0px 20px 0px 20px;
+		margin: 0px 10px 0px 10px;
 	}
 
 	.browser {
@@ -1169,7 +1179,8 @@ background: var(--silver);
 	@media (min-width: 320px) {
 
 		.tabs-container {
-			width: calc((12/12)*100%);
+			width: calc((8/12)*100%);
+			margin-left: calc((2/12)*100%);
 		}
 
 
@@ -1621,8 +1632,8 @@ height:auto;
     @media (min-width: 500px) {
 
     	.tabs-container {
-			width: calc((10/12)*100%);
-			margin-left: calc((1/12)*100%);
+			width: calc((6/12)*100%);
+			margin-left: calc((3/12)*100%);
 		}
 
     	.mobile-disappear {
@@ -1977,8 +1988,8 @@ height:auto;
     @media (min-width:690px) {
 
     	.tabs-container {
-			width: calc((8/12)*100%);
-			margin-left: calc((2/12)*100%);
+			width: calc((12/12)*100%);
+			margin-left: calc((0/12)*100%);
 		}
 
 
@@ -2325,12 +2336,18 @@ height:auto;
     }
 
     @media (min-width: 810px) {
+.tabs-inline {
+    padding-left:30px;
+    padding-right:30px;
+    display: inline-block;
+    margin: 0 auto;
 
+}
     	
 
     	.tabs-container {
-			width: calc((6/12)*100%);
-			margin-left: calc((3/12)*100%);
+			width: calc((12/12)*100%);
+			margin-left: calc((0/12)*100%);
 		}
 
 
@@ -2661,8 +2678,8 @@ height:auto;
     @media (min-width: 970px) {
 
     	.tabs-inline {
-    padding-left:12px;
-    padding-right:12px;
+    padding-left:30px;
+    padding-right:30px;
     display: inline-block;
     margin: 0 auto;
 
@@ -2670,7 +2687,7 @@ height:auto;
 
     	.tabs-container {
 			width: calc((12/12)*100%);
-			margin:0;
+			margin-left: calc((0/12)*100%);
 		}
 
 
