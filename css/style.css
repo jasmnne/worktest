@@ -659,6 +659,15 @@ background: var(--silver);
 		border-radius: 50%;
 	}
 
+	.button-img {
+		background-color: var(--white);
+		width: 60px;
+		height: 60px;
+		padding: 10px;
+		border-radius: 50%;
+		margin-top:20px;
+	}
+
 	.integrations-img {
 		width:40px;
 		margin: 0px 20px 0px 20px;
