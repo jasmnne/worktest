@@ -1065,6 +1065,13 @@ background: var(--silver);
 		margin-top:0px;
 	}
 
+	.features-short-list-3col {
+		width:100%;
+		display: inline-block;
+		float:left;
+		margin-top:0px;
+	}
+
 	.l-3col {
 		width:100%;
 		display: inline-block;
@@ -1296,7 +1303,7 @@ background: var(--silver);
 	  display: inline;
 	  font-size:1em;
 	  font-family: 'Work Sans', sans-serif;
-	  font-weight: 300;
+	  font-weight: 400;
 	  letter-spacing: 0.02em;
 	  color: var(--white);
 	  border:2px solid var(--white);
@@ -1769,6 +1776,13 @@ background: var(--silver);
 			padding-bottom:20px;
 		}
 
+		.features-short-list-3col {
+			width: calc((10/12)*100%);
+			display: inline-block;
+			float:left;
+			padding-bottom:0px;
+		}
+
 		.l-3col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -1891,7 +1905,7 @@ height:auto;
 			margin-top:10px;
 			-webkit-transition-duration: 0.2s; 
 			transition-duration: 0.2s;
-			margin-bottom:20px;
+			margin-bottom:40px;
 			-webkit-appearance: none;
 		}
 
@@ -1923,7 +1937,7 @@ height:auto;
 	    	text-transform: uppercase;
 	    	font-size:1em;
 	    	font-weight:600;
-	    	letter-spacing: 0.25em;
+	    	letter-spacing: 0.125em;
 	    	line-height: 135%;
 	    }
 
@@ -2372,7 +2386,7 @@ height:auto;
 	    	text-transform: uppercase;
 	    	font-size:1em;
 	    	font-weight:600;
-	    	letter-spacing: 0.25em;
+	    	letter-spacing: 0.15em;
 	    	line-height: 135%;
 	    }
 
@@ -2693,6 +2707,20 @@ height:auto;
 			padding-bottom:20px;
 		}
 
+		.features-short-list-3col {
+			width: calc((12/12)*100%);
+			display: inline-block;
+			float:left;
+			padding-bottom:0px;
+		}
+
+		.features-short-list-3col {
+			width: calc((12/12)*100%);
+			display: inline-block;
+			float:left;
+			padding-bottom:0px;
+		}
+
 	
 		.l-3col {
 			width: calc((4/12)*100%);
@@ -2788,7 +2816,7 @@ height:auto;
 	    	text-transform: uppercase;
 	    	font-size:1em;
 	    	font-weight:600;
-	    	letter-spacing: 0.25em;
+	    	letter-spacing: 0.15em;
 	    	line-height: 135%;
 	    }
 
@@ -3110,6 +3138,13 @@ height:auto;
 			float:left;
 			padding-bottom:20px;
 		}
+
+		.features-short-list-3col {
+			width: calc((12/12)*100%);
+			display: inline-block;
+			float:left;
+			padding-bottom:20px;
+		}
 		
 
 		.l-3col {
@@ -3211,7 +3246,7 @@ height:auto;
 	    	text-transform: uppercase;
 	    	font-size:1em;
 	    	font-weight:600;
-	    	letter-spacing: 0.25em;
+	    	letter-spacing: 0.175em;
 	    	line-height: 135%;
 	    }
 
@@ -3614,7 +3649,7 @@ height:auto;
 	    	text-transform: uppercase;
 	    	font-size:1em;
 	    	font-weight:600;
-	    	letter-spacing: 0.25em;
+	    	letter-spacing: 0.175em;
 	    	line-height: 135%;
 	    }
 
