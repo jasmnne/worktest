@@ -604,6 +604,8 @@ background: var(--silver);
     }
 
 
+
+
     .white-container-slant {
     	 -webkit-transform: skewY(3deg);
   -moz-transform: skewY(3deg);
@@ -627,6 +629,63 @@ background: var(--silver);
 
     	
     }
+
+
+    .white-container-top-slant {
+    	 -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  transform: skewY(3deg);
+
+    }
+
+
+    .white-container-bg-top-slant {
+    	background-color:var(--white);
+    	-webkit-transform: skewY(-3deg);
+    	-moz-transform: skewY(-3deg);
+    	-ms-transform: skewY(-3deg);
+    	-o-transform: skewY(-3deg);
+    	transform: skewY(-3deg);
+    	padding-top: 100px;
+    	padding-bottom: 150px;
+    	margin-bottom:-100px;
+
+    	
+    }
+
+    .white-outer-container-bg-top-slant {
+    	margin-bottom: ;
+    	height: auto;
+    	overflow: hidden;
+    	padding-top:120px;
+    	margin-top:-120px;
+    }
+
+    .gray-container-slant {
+    	 -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  transform: skewY(3deg);
+
+    }
+
+ .gray-container-bg-slant {
+    	background-color:var(--gray);
+    	-webkit-transform: skewY(-3deg);
+    	-moz-transform: skewY(-3deg);
+    	-ms-transform: skewY(-3deg);
+    	-o-transform: skewY(-3deg);
+    	transform: skewY(-3deg);
+    	padding-top: 100px;
+    	padding-bottom: 150px;
+    	margin-bottom:-100px;
+
+    	
+    }
+
 
     .silver-container {
     	background-color:var(--silver);
@@ -1101,7 +1160,10 @@ background: var(--silver);
 	.pricing-content {
 		padding:20px;
 		border-radius: 0px 0px 10px 10px;
-		background-color:white;
+		background-color:var(--white);
+		-webkit-box-shadow: 0px 0px 20px 0px var(--chrome);
+		-moz-box-shadow: 0px 0px 20px 0px var(--chrome);
+		box-shadow: 0px 0px 20px 0px var(--chrome);
 
 	}
 
@@ -1112,9 +1174,9 @@ background: var(--silver);
 
 	.pricing-highlight:hover {
 		border-radius: 10px;
-		-webkit-box-shadow: 0px 0px 20px 0px var(--mist);
-		-moz-box-shadow: 0px 0px 20px 0px var(--mist);
-		box-shadow: 0px 0px 20px 0px var(--mist);
+		-webkit-box-shadow: 0px 0px 20px 0px var(--chrome);
+		-moz-box-shadow: 0px 0px 20px 0px var(--chrome);
+		box-shadow: 0px 0px 20px 0px var(--chrome);
 		-webkit-transition-duration: 0.1s; /* Safari */
 	  transition-duration: 0.1s;
 	}
@@ -1568,6 +1630,9 @@ background: var(--silver);
     	padding-top:40px;
     }
     .white-container-bg-slant {
+    	padding-top:40px;
+    }
+     .gray-container-bg-slant {
     	padding-top:40px;
     }
 
@@ -2310,9 +2375,9 @@ height:auto;
 		}
 		.pricing-nonhighlight:hover {
 			border-radius: 10px;
-		-webkit-box-shadow: 0px 0px 20px 0px var(--mist);
-		-moz-box-shadow: 0px 0px 20px 0px var(--mist);
-		box-shadow: 0px 0px 20px 0px var(--mist);
+		-webkit-box-shadow: 0px 0px 20px 0px var(--chrome);
+		-moz-box-shadow: 0px 0px 20px 0px var(--chrome);
+		box-shadow: 0px 0px 20px 0px var(--chrome);
 		-webkit-transition-duration: 0.1s; /* Safari */
 	  transition-duration: 0.1s;
 		}
