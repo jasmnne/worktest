@@ -1673,6 +1673,9 @@ background: var(--silver);
 		.selector-3col-wrap {
 			width: calc((12/12)*100%);
 			float:left;
+			border-radius: 0.3em;
+			margin-top: calc((0.25/12)*100%);
+			margin-bottom: calc((0.25/12)*100%);
 		}
 		.selector-2col {
 			width: calc((12/12)*100%);
@@ -2056,8 +2059,8 @@ height:auto;
     	}
 
     	.tabs-container {
-			width: calc((6/12)*100%);
-			margin-left: calc((3/12)*100%);
+			width: calc((12/12)*100%);
+			margin-left: calc((0/12)*100%);
 		}
 		.tabs-container-home {
 			width: calc((12/12)*100%);
@@ -2186,9 +2189,15 @@ height:auto;
 			float:left;
 		}
 		.selector-3col-wrap {
-			width: calc((6/12)*100%);
+			width: calc((5.5/12)*100%);
+
+			border-radius: 0.3em;
+
+			margin-left: calc((0.25/12)*100%);
+			margin-right:calc((0.25/12)*100%);
+			margin-bottom: calc((0.5/12)*100%);
 			float:left;
-			min-height: 22em;
+			min-height: 25em;
 
 		}
 		.selector-2col {
@@ -2613,6 +2622,11 @@ height:auto;
 			width: calc((12/12)*100%);
 			float:left;
 			min-height: 0em;
+			margin-top: calc((0/12)*100%);
+			margin-left: calc((0/12)*100%);
+			margin-right:calc((0/12)*100%);
+			margin-bottom: calc((0/12)*100%);
+			border-radius: 0;
 		}
 		.selector-2col {
 			width: calc((6/12)*100%);
