@@ -344,6 +344,9 @@
 .tabs-container {
 	width: 100%;
 }
+.tabs-container-home {
+	width: 100%;
+}
 
 .tabs-inline {
     padding-left:12px;
@@ -1505,6 +1508,18 @@ background: var(--silver);
 			margin-left: calc((2/12)*100%);
 		}
 
+		.tabs-container-home {
+			width: calc((12/12)*100%);
+		}
+
+			.tabs-inline {
+    padding-left:8px;
+    padding-right:8px;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
 
 
 		.mobile-disappear {
@@ -1896,7 +1911,7 @@ height:auto;
 	    }
 
 	    h3 {
-	    	font-size:1.25em;
+	    	font-size:1.1em;
 	    	font-weight:600;
 	    	letter-spacing: -0.02em;
 	    	line-height: 135%;
@@ -1925,7 +1940,7 @@ height:auto;
 	    } 	
 
 	    blockquote {
-	    	font-size:1.25em;
+	    	font-size:1.1em;
 	    	margin-left:0;
 	    	margin-right: 0;
 
@@ -1967,7 +1982,7 @@ height:auto;
 
     	.home-intro-container {
     		background-image: url(../images/cogo_illustration_home_full.svg);
-    		background-size: 150%;
+    		background-size: 125%;
     		background-position: center;
     		background-attachment: scroll;
     		width: 100%;
@@ -1979,7 +1994,7 @@ height:auto;
     		.home-intro-content {
     		display: table-cell;
     		vertical-align: middle;
-    		background:radial-gradient(circle, var(--bluegray) 50%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		background:radial-gradient(circle, var(--bluegray) 65%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     		}
 
     	.home-work-container {
@@ -2020,6 +2035,9 @@ height:auto;
     	.tabs-container {
 			width: calc((6/12)*100%);
 			margin-left: calc((3/12)*100%);
+		}
+		.tabs-container-home {
+			width: calc((12/12)*100%);
 		}
 
     	.mobile-disappear {
@@ -2391,7 +2409,7 @@ height:auto;
 
     	.home-intro-container {
     		background-image: url(../images/cogo_illustration_home_full.svg);
-    		background-size: 200%;
+    		background-size: 125%;
     		background-position: center;
     		background-attachment: scroll;
     		width: 100%;
@@ -2403,7 +2421,7 @@ height:auto;
     		.home-intro-content {
     		display: table-cell;
     		vertical-align: middle;
-    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		background:radial-gradient(circle, var(--bluegray) 65%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     		}
 
     	.home-work-container {
@@ -2801,7 +2819,7 @@ height:auto;
 
     	.home-intro-container {
     		background-image: url(../images/cogo_illustration_home_full.svg);
-    		background-size: 200%;
+    		background-size: 150%;
     		background-position: center;
     		background-attachment: scroll;
     		width: 100%;
@@ -2813,7 +2831,7 @@ height:auto;
     		.home-intro-content {
     		display: table-cell;
     		vertical-align: middle;
-    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		background:radial-gradient(circle, var(--bluegray) 50%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     		}
 
     	.home-work-container {
@@ -3217,7 +3235,7 @@ height:auto;
 
     	.home-intro-container {
     		background-image: url(../images/cogo_illustration_home_full.svg);
-    		background-size: 200%;
+    		background-size: 125%;
     		background-position: center;
     		background-attachment: scroll;
     		width: 100%;
