@@ -182,7 +182,22 @@
 		}
     	
 		
-    	
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: contain;
+    		background-position: center;
+    		background-attachment: fixed;
+    		width: 100%;
+    		height: 100vh;
+    		display: table;
+  
+    	}
+
+    	.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    	}
 
 
     
@@ -1429,6 +1444,24 @@ background: var(--silver);
 
 	@media (min-width: 320px) {
 
+		.home-intro-container {
+    		/*background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 200%;
+    		background-position: center;
+    		background-attachment: scroll;*/
+    		background-image: none;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 65%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
 		.home-together-container {
     		width: 100%;
     		height: auto;
@@ -1929,6 +1962,23 @@ height:auto;
 
     @media (min-width: 500px) {
 
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 150%;
+    		background-position: center;
+    		background-attachment: scroll;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 50%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
     	.home-together-container {
     		width: 100%;
     		height: auto;
@@ -2336,6 +2386,23 @@ height:auto;
 
     @media (min-width:690px) {
 
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 200%;
+    		background-position: center;
+    		background-attachment: scroll;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
     	.home-together-container {
     		width: 100%;
     		height: auto;
@@ -2728,6 +2795,36 @@ height:auto;
     }
 
     @media (min-width: 810px) {
+
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 200%;
+    		background-position: center;
+    		background-attachment: scroll;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
+    		#particles-js-enterprise {
+			  position: fixed;
+			  z-index: -1000000;
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+		
+			  min-height: 25em;
+			      height: 100%;
+			  background: linear-gradient(45deg, var(--green) 0%, var(--bluegray) 95%);
+			  background-position: center;
+			}
 
     	.home-together-container {
     		width: 100%;
@@ -3127,6 +3224,24 @@ height:auto;
 
     @media (min-width: 970px) {
 
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 200%;
+    		background-position: center;
+    		background-attachment: scroll;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
+
 
     	.home-together-container {
     		width: 100%;
@@ -3506,6 +3621,27 @@ height:auto;
     }
 
     @media (min-width: 1140px) {
+
+    	.home-intro-container {
+			background-image: url(../images/cogo_illustration_home_full.svg);
+			background-size: cover;
+    		background-position: center;
+    		background-attachment: fixed;
+    		width: 100%;
+    		height: 100vh;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
+    		
+
+    	}
 
 
     	.home-together-container {
@@ -4108,3 +4244,5 @@ height:auto;
 	  }
 
 	}
+
+
