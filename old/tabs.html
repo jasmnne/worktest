@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,600,700" rel="stylesheet">
+            <link href="css/style.css" rel="stylesheet">
+
+
+
+
+    <style>
+
+ul.tabs {
+    width: 100%;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li.tab-link  {
+    width: 100%;
+    float: left;
+    display: block;
+    padding-left: ;
+    margin: 0;
+    cursor: pointer;
+    border-top: 1px solid var(--silver);
+    border-bottom: 1px solid var(--silver);
+    color: var(--chrome);
+}
+
+
+.tab-link:hover {
+    /*-webkit-box-shadow: 0px 0px 20px 0px var(--concrete);
+    -moz-box-shadow: 0px 0px 20px 0px var(--concrete);
+    box-shadow: 0px 0px 20px 0px var(--concrete);
+    border-top: 1px solid var(--green);
+    border-bottom: 1px solid var(--green);
+    background-color: var(--silver);*/
+    padding-left:20px;
+    -webkit-transition: padding-left 0.5s; /* Safari */
+    transition: padding-left 0.5s;
+    color: var(--concrete);
+}
+
+.tab-content {
+    display: none;
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+</style>
+</head>
+    <body>
+
+        <div class="white-container">
+            <div class="screen-content">
+
+                <div id="Search" class="tab-content">
+                    <img src="images/cogo_illustration_cogo.svg" class="screen-img" />1
+                </div>
+
+                <div id="No-folders" class="tab-content">
+                        <img src="images/cogo_illustration_cogo.svg" class="screen-img" />2
+                </div>
+
+                <div id="Tag" class="tab-content">
+                        <img src="images/cogo_illustration_cogo.svg" class="screen-img" />3
+                </div>
+
+                <div id="Present" class="tab-content ">
+                        <img src="images/cogo_illustration_cogo.svg" class="screen-img" />4
+                </div>
+            </div>
+
+            <div class="grid-item screen-sidebar">
+
+                
+                <h3 class="green">Key features</h3>
+
+                <ul class="tabs">
+
+                <li class="tab-link" onclick="openTab('Search', this, 'var(--white)', 'var(--gray)', '40px')" id="defaultOpen" >
+                    <h5><img src="images/cogo_search.svg" alt="Cogo Logo" style="width: 3em; margin-bottom: -1.25em;" /> Lightning fast search</h5>
+                </li>
+
+                <li class="tab-link" onclick="openTab('No-folders', this, 'var(--white)', 'var(--gray)', '40px')">
+
+                    <h5><img src="images/cogo_no_more_folders.svg" alt="Cogo Logo" style="width: 3em; margin-bottom: -1.25em;" /> No more folders</h5>
+
+                </li>
+
+                <li class="tab-link" onclick="openTab('Tag', this, 'var(--white)', 'var(--gray)', '40px')">
+
+                    <h5><img src="images/cogo_tags.svg" alt="Cogo Logo" style="width: 3em; margin-bottom: -1.25em;" /> Clever tagging</h5>
+
+                </li>
+
+                <li class="tab-link" onclick="openTab('Present', this, 'var(--white)', 'var(--gray)', '40px')">
+                    <h5><img src="images/cogo_presentation.svg" alt="Cogo Logo" style="width: 3em; margin-bottom: -1.25em;" /> Presentation Mode</h5>
+                </li>
+            </ul>
+
+            </div>
+        </div>
+
+        
+
+<script>
+    function openTab(idName,elmnt,backgroundcolor,color,paddingleft) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tab-content");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tab-link");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+            tablinks[i].style.color = "";
+            tablinks[i].style.paddingLeft = "";
+        }
+        document.getElementById(idName).style.display = "block";
+        elmnt.style.backgroundColor = backgroundcolor;
+        elmnt.style.color = color;
+        elmnt.style.paddingLeft = paddingleft;
+
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+     
+</body>
+</html> 
