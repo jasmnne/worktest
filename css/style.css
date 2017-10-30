@@ -181,8 +181,27 @@
 			background-color: var(--bluegray);
 		}
     	
+		/* TARA TARA TARA */
 		
-    	
+    	 .home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: contain;
+    		background-position: center;
+    		background-attachment: fixed;
+    		width: 100%;
+    		height: 100vh;
+    		display: table;
+  
+    	}
+
+    	.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    	}
+
+
+    	/* TARA TARA TARA */
 
 
     
@@ -1437,6 +1456,18 @@ background: var(--silver);
     		overflow: hidden;
     	}
 
+    	.home-intro-container {
+    		/*background-image: url(images/cogo_illustration_home_full.svg);
+    		background-size: 200%;
+    		background-position: center;
+    		background-attachment: scroll;*/
+    		background-image: none;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
     	.home-work-container {
     		width: 100%;
     		height: auto;
@@ -1937,6 +1968,23 @@ height:auto;
     		overflow: hidden;
     	}
 
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 150%;
+    		background-position: center;
+    		background-attachment: scroll;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 50%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
     	.home-work-container {
     		width: 100%;
     		height: auto;
@@ -2344,6 +2392,23 @@ height:auto;
     		overflow: hidden;
     	}
 
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 200%;
+    		background-position: center;
+    		background-attachment: scroll;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
     	.home-work-container {
     		width: 100%;
     		height: auto;
@@ -2736,6 +2801,23 @@ height:auto;
     		background:var(--ink);
     		overflow: hidden;
     	}
+
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 200%;
+    		background-position: center;
+    		background-attachment: scroll;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
 
     	.home-work-container {
     		width: 100%;
@@ -3136,6 +3218,23 @@ height:auto;
     		overflow: hidden;
     	}
 
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: 200%;
+    		background-position: center;
+    		background-attachment: scroll;
+    		width: 100%;
+    		height: auto;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
+
     	.home-work-container {
     		width: 100%;
     		height: auto;
@@ -3515,6 +3614,23 @@ height:auto;
     		background:var(--ink);
     		overflow: hidden;
     	}
+
+    	.home-intro-container {
+    		background-image: url(../images/cogo_illustration_home_full.svg);
+    		background-size: cover;
+    		background-position: center;
+    		background-attachment: fixed;
+    		width: 100%;
+    		height: 100vh;
+    		display: table;
+  
+    		}
+
+    		.home-intro-content {
+    		display: table-cell;
+    		vertical-align: middle;
+    		background:radial-gradient(circle, var(--bluegray) 36%, transparent 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    		}
 
     	.home-work-container {
     		width: 100%;
