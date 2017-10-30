@@ -7,7 +7,7 @@
   --rich-red: #B12251;
   --white:#fff;
   --silver:#eef3f3;
-  --chrome:#ccc;
+  --chrome:#c2ccd1;
   --mist: #aaa;
   --concrete:#7e8892;
   --gray:#4b555f;
@@ -597,6 +597,10 @@ background: var(--silver);
     .padding-bottom {
     	padding-bottom:40px;
 
+    }
+
+    .padding-top-slant {
+    	padding-top:120px;
     }
 
 
