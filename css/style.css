@@ -1722,7 +1722,7 @@ background: var(--silver);
 			width: calc((12/12)*100%);
 			float:left;
 			margin:0 auto;
-			margin-bottom: 20px;		
+			margin-bottom: 0px;		
 		}
 
 		.product-top-col {
@@ -4278,6 +4278,10 @@ height:auto;
 	  text-align: center;
 	  display: none;
 	  cursor: pointer;
+	  top:10px;
+	  right:10px;
+	  position: absolute;
+	  z-index: 100000000000;
 	}
 
 	/*Hide checkbox*/
@@ -4294,19 +4298,19 @@ height:auto;
 
 	  input[type=checkbox]:checked ~ #menu {
 	    display: block;
-	    background:var(--blue);
+	    background:var(--ink);
 	    width: 100%;
-	    height: auto;
-	    overflow: scroll ;
+	    height: 100vh;
+	    overflow: scroll;
 	    position: absolute;
 	    top:0;
 	    left:0;
 	    margin:0;
 	    padding: 0;
+	    padding-top:10vh;
 	    padding-bottom:0px;
-	    margin-top:80px;
-
-      z-index: 10000000;
+	    margin-top:0px;
+	    z-index: 10000000;
 	  }
 
 	  .links {
@@ -4321,6 +4325,7 @@ height:auto;
 	      padding-top:20px;
 	      padding-bottom:20px;
 	      	  padding-left:0px;
+	      	  height:10vh;
 	  }
 
 	  .links ul li a {
@@ -4370,8 +4375,10 @@ height:auto;
 	  .show-menu {
 	    display:block;
 	    width:36px;
-	    float: right;
-	    padding: 22px 0;
+	  	top:20px;
+	  	right:20px;
+	  	position: absolute;
+	  	z-index: 100000000000;
 
 	  }
 	}
@@ -4381,19 +4388,19 @@ height:auto;
 
 	  input[type=checkbox]:checked ~ #menu {
 	    display: block;
-	    background:var(--blue);
+	    background:var(--ink);
 	    width: 100%;
-	    height: 100;
+	    height: 100vh;
 	    overflow: ;
 	    position: absolute;
 	    top:0;
 	    left:0;
 	    margin:0;
 	    padding: 0;
+	    padding-top:10vh;
 	    padding-bottom:0px;
-	    margin-top:80px;
-
-      z-index: 10000000;
+	    margin-top:0px;
+      	z-index: 10000000;
 	  }
 
 	  .links {
@@ -4408,6 +4415,7 @@ height:auto;
 	      padding-top:10px;
 	      padding-bottom:10px;
 	      	  padding-left:0px;
+	      	  height: 10vh;
 	  }
 
 	  .links ul li a {
@@ -4457,8 +4465,10 @@ height:auto;
 	  .show-menu {
 	    display:block;
 	    width:36px;
-	    float: right;
-	    padding: 22px 0;
+	    top:20px;
+	  right:20px;
+	  position: absolute;
+	  z-index: 100000000000;
 
 	  }
 	}
@@ -4468,23 +4478,26 @@ height:auto;
 	.show-menu {
 	    display:block;
 	    width:36px;
-	    float: right;
-	    padding: 12px 0;
+	    top:10px;
+	  right:20px;
+	  position: absolute;
+	  z-index: 100000000000;
 
 	  }
 
 	  input[type=checkbox]:checked ~ #menu {
 	    display: block;
-	    background:var(--blue);
+	    background:var(--ink);
 	    width: 100%;
-	    height: auto;
+	    height: 100vh;
 	    overflow: scroll ;
 	    position: absolute;
 	    top:0;
 	    left:0;
 	    margin:0;
-	    padding: 0;
-	    margin-top:60px;
+	    padding:0;
+	    padding-top: 10vh;
+	    margin-top:0px;
       z-index: 10000000;
 
 
@@ -4498,23 +4511,26 @@ height:auto;
 	.show-menu {
 	    display:block;
 	    width:36px;
-	    float: right;
-	    padding: 12px 0;
+	    top:10px;
+	  right:20px;
+	  position: absolute;
+	  z-index: 100000000000;
 
 	  }
 
 	  input[type=checkbox]:checked ~ #menu {
 	    display: block;
-	    background:var(--blue);
+	    background:var(--ink);
 	    width: 100%;
-	    height: auto;
+	    height: 100vh;
 	    overflow:  ;
 	    position: absolute;
-	    top:0;
+	    top:;
 	    left:0;
 	    margin:0;
 	    padding: 0;
-	    margin-top:60px;
+	    padding-top:10vh;
+	    margin-top:0px;
 
       z-index: 10000000;	  }
 
