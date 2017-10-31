@@ -238,6 +238,7 @@
     	}
 
 
+
     	.home-work-content {
     		display: table-cell;
     		vertical-align: middle;
@@ -4203,7 +4204,7 @@ height:auto;
     }
 
 
-    @media (min-width: 1650px) {
+    @media (min-width: 1490px) {
 
     	.white-outer-container-bg-top-slant {
     	height: ;
