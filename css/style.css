@@ -4170,6 +4170,27 @@ height:auto;
 
     @media (min-width: 1650px) {
 
+    	.white-outer-container-bg-top-slant {
+    	height: ;
+    	overflow: hidden;
+    	padding-top:60px;
+    	margin-top:-160px;
+    	
+    }
+    .white-container-bg-top-slant {
+    	background-color:var(--white);
+    	-webkit-transform: skewY(-3deg);
+    	-moz-transform: skewY(-3deg);
+    	-ms-transform: skewY(-3deg);
+    	-o-transform: skewY(-3deg);
+    	transform: skewY(-3deg);
+    	padding-bottom: 80px;
+    	margin-bottom:-80px;
+
+
+    	
+    }
+
     	.home-together-container {
     		width: 100%;/*
     		height: 100vh;*/
@@ -4284,7 +4305,7 @@ height:auto;
 	    padding: 0;
 	    padding-bottom:0px;
 	    margin-top:80px;
-	    
+
       z-index: 10000000;
 	  }
 
