@@ -604,8 +604,6 @@ background: var(--silver);
     }
 
 
-
-
     .white-container-slant {
     	 -webkit-transform: skewY(3deg);
   -moz-transform: skewY(3deg);
@@ -662,6 +660,38 @@ background: var(--silver);
     	margin-top:-40px;
     	
     }
+
+
+    .white-container-top-slant-hero {
+    	 -webkit-transform: skewY(3deg);
+  -moz-transform: skewY(3deg);
+  -ms-transform: skewY(3deg);
+  -o-transform: skewY(3deg);
+  transform: skewY(3deg);
+
+    }
+
+
+    .white-container-bg-top-slant-hero {
+    	background-color:var(--white);
+    	-webkit-transform: skewY(-3deg);
+    	-moz-transform: skewY(-3deg);
+    	-ms-transform: skewY(-3deg);
+    	-o-transform: skewY(-3deg);
+    	transform: skewY(-3deg);
+    	padding-bottom: 40px;
+    	margin-bottom:-40px;
+
+
+    	
+    }
+
+    .white-outer-container-bg-top-slant-hero {
+    	height: ;
+    	overflow: hidden;
+    	padding-top:40px;
+    	margin-top:-40px;
+    	}
 
     .gray-container-slant {
     	 -webkit-transform: skewY(3deg);
@@ -1656,7 +1686,9 @@ background: var(--silver);
     	padding-top:40px;
     }
 
-
+.white-container-bg-top-slant-hero {
+    	padding-top:40px;
+    }
 
     .white-container-bg-top-slant {
     	padding-top:40px;
@@ -4181,6 +4213,27 @@ height:auto;
     	
     }
     .white-container-bg-top-slant {
+    	background-color:var(--white);
+    	-webkit-transform: skewY(-3deg);
+    	-moz-transform: skewY(-3deg);
+    	-ms-transform: skewY(-3deg);
+    	-o-transform: skewY(-3deg);
+    	transform: skewY(-3deg);
+    	padding-bottom: 80px;
+    	margin-bottom:-80px;
+
+
+    	
+    }
+
+    .white-outer-container-bg-top-slant-hero {
+    	height: ;
+    	overflow: hidden;
+    	padding-top:80px;
+    	margin-top:-80px;
+    	
+    }
+    .white-container-bg-top-slant-hero  {
     	background-color:var(--white);
     	-webkit-transform: skewY(-3deg);
     	-moz-transform: skewY(-3deg);
