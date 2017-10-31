@@ -902,6 +902,7 @@ background: var(--silver);
 		margin:0 auto;
 		padding-bottom: 40px;
 		padding-top: 0px;
+		background-color: none;
 		text-align: center;
 
 	}
