@@ -4284,6 +4284,8 @@ height:auto;
 	    padding: 0;
 	    padding-bottom:0px;
 	    margin-top:80px;
+	    
+      z-index: 10000000;
 	  }
 
 	  .links {
@@ -4369,6 +4371,8 @@ height:auto;
 	    padding: 0;
 	    padding-bottom:0px;
 	    margin-top:80px;
+
+      z-index: 10000000;
 	  }
 
 	  .links {
@@ -4460,7 +4464,7 @@ height:auto;
 	    margin:0;
 	    padding: 0;
 	    margin-top:60px;
-      z-index: 1000000;
+      z-index: 10000000;
 
 
 	  }
@@ -4490,6 +4494,7 @@ height:auto;
 	    margin:0;
 	    padding: 0;
 	    margin-top:60px;
-	  }
+
+      z-index: 10000000;	  }
 
 	}
