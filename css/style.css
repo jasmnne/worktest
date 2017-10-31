@@ -349,8 +349,8 @@
 }
 
 .tabs-inline {
-    padding-left:12px;
-    padding-right:12px;
+    padding-left:30px;
+    padding-right:30px;
     display: inline-block;
     margin: 0 auto;
 
@@ -1569,6 +1569,12 @@ background: var(--silver);
 
 	@media (min-width: 320px) {
 
+		.grid-item{
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    float: left; 
+	}
+
 		.home-together-container {
     		width: 100%;
     		height: auto;
@@ -2122,6 +2128,12 @@ height:auto;
 
     @media (min-width: 500px) {
 
+    	.grid-item{
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    float: left; 
+	}
+
     	.home-together-container {
     		width: 100%;
     		height: auto;
@@ -2562,6 +2574,12 @@ height:auto;
 
     @media (min-width:690px) {
 
+    	.grid-item{
+	    padding-left: 40px;
+	    padding-right: 40px;
+	    float: left; 
+	}
+
     	.home-together-container {
     		width: 100%;
     		height: auto;
@@ -2763,12 +2781,16 @@ height:auto;
 			width: calc((6/12)*100%);
 			float:left;
 		}
-		
-
-		.features-2col {
-			width: calc((6/12)*100%);
+		/*.features-2col-wrap{
+			width: calc((12/12)*100%);
 			float:left;
 			text-align: left;
+
+		}*/
+		.features-2col {
+			width: calc((12/12)*100%);
+			float:left;
+			text-align: ;
 		}
 		.screen-content {
 			width: calc((12/12)*100%);
@@ -2932,6 +2954,11 @@ height:auto;
 			float:left;
 			height:80px;
 		}
+		.links ul li {
+	  display:inline-block;
+	  padding-left:25px;
+	}
+
 		.logo img {
 		height:80px;
 		width:100px;
@@ -2997,6 +3024,12 @@ height:auto;
     }
 
     @media (min-width: 810px) {
+
+    	.grid-item{
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    float: left; 
+	}
 
     	.home-together-container {
     		width: 100%;
@@ -3201,6 +3234,7 @@ height:auto;
 		.features-2col {
 			width: calc((6/12)*100%);
 			float:left;
+			text-align: left;
 		}
 		.screen-content {
 			width: calc((12/12)*100%);
@@ -3371,7 +3405,13 @@ height:auto;
 			width: calc((11/12)*100%);
 			float:left;
 		}
+
+		.links ul li {
+	  display:inline-block;
+	  padding-left:20px;
+	}
     
+		
 	    h1 {
 	    	font-size:2.5em;
 	    }
@@ -3426,6 +3466,12 @@ height:auto;
     }
 
     @media (min-width: 970px) {
+
+    	.grid-item{
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    float: left; 
+	}
 
 
     	.home-together-container {
@@ -3774,6 +3820,11 @@ height:auto;
 			width: calc((11/12)*100%);
 			float:left;
 		}
+
+		.links ul li {
+	  display:inline-block;
+	  padding-left:30px;
+	}
     
 	    h1 {
 	    	font-size:2.75em;
@@ -4152,6 +4203,10 @@ height:auto;
 			width: calc((11/12)*100%);
 			float:left;
 		}
+		.links ul li {
+	  display:inline-block;
+	  padding-left:40px;
+	}
     	h1 {
     	font-size:3em;
 
