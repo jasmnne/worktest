@@ -1632,6 +1632,10 @@ background: var(--silver);
     .white-container-bg-slant {
     	padding-top:40px;
     }
+
+    .white-outer-container-bg-slant {
+    	padding-top:40px;
+    }
      .gray-container-bg-slant {
     	padding-top:40px;
     }
