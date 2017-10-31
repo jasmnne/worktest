@@ -4286,6 +4286,10 @@ height:auto;
 	  z-index: 100000000000;*/
 	}
 
+	.show-menu-home {
+	  	display: none;
+	  }
+
 	/*.hamburger-menu:hover {
 	  background-color: var(--blue);
 	  padding:40px;
@@ -4394,6 +4398,10 @@ height:auto;
 	  	z-index: 100000000000;*/
 
 	  }
+
+	  .show-menu-home {
+	  	display: inline;
+	  }
 	}
 
 
@@ -4485,6 +4493,10 @@ height:auto;
 	  z-index: 100000000000;*/
 
 	  }
+
+	  .show-menu-home {
+	  	display: inline;
+	  }
 	}
 
 	@media screen and (max-width : 689px) and (orientation: portrait) {
@@ -4497,6 +4509,9 @@ height:auto;
 	  position: absolute;/*
 	  z-index: 100000000000;*/
 
+	  }
+	  .show-menu-home {
+	  	display: inline;
 	  }
 
 	  input[type=checkbox]:checked ~ #menu {
@@ -4530,6 +4545,10 @@ height:auto;
 	  position: absolute;/*
 	  z-index: 100000000000;*/
 
+	  }
+
+	  .show-menu-home {
+	  	display: inline;
 	  }
 
 	  input[type=checkbox]:checked ~ #menu {
