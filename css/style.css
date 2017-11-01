@@ -1837,6 +1837,12 @@ background: var(--silver);
 			width: calc((12/12)*100%);
 			float:left;
 		}
+		.features-short-4col-wrap{
+			width: calc((12/12)*100%);
+			float:left;
+			text-align: left;
+
+		}
 		.features-short-4col {
 			width: calc((6/12)*100%);
 			float:left;
@@ -1854,6 +1860,8 @@ background: var(--silver);
 			width: calc((12/12)*100%);
 			float:left;
 		}
+
+
 
 		.features-5col {
 			width: calc((12/12)*100%);
@@ -2780,13 +2788,9 @@ height:auto;
 		.selector-2col {
 			width: calc((6/12)*100%);
 			float:left;
+			padding: 10px;
 		}
-		/*.features-2col-wrap{
-			width: calc((12/12)*100%);
-			float:left;
-			text-align: left;
-
-		}*/
+		
 		.features-2col {
 			width: calc((12/12)*100%);
 			float:left;
@@ -2800,13 +2804,28 @@ height:auto;
 			width: calc((12/12)*100%);
 			float:left;
 		}
+		.features-4col-wrap{
+			width: calc((12/12)*100%);
+			float:left;
+			text-align: left;
+
+		}
 		.features-4col {
 			width: calc((6/12)*100%);
+			padding:10px;
 			float:left;
 		}
-		.features-short-4col {
-			width: calc((3/12)*100%);
+
+		.features-short-4col-wrap{
+			width: calc((12/12)*100%);
 			float:left;
+			text-align: left;
+
+		}
+		.features-short-4col {
+			width: calc((6/12)*100%);
+			float:left;
+			padding:10px;
 		}
 		.home-work-side {
 			width: calc((12/12)*100%);
@@ -2820,9 +2839,16 @@ height:auto;
 			width: calc((12/12)*100%);
 			float:left;
 		}
+
+		.features-5col-wrap {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+
 		.features-5col {
 			width: calc((4/12)*100%);
 			float:left;
+			padding: 10px;
 		}
 
 		.features-icon {
@@ -2860,7 +2886,7 @@ height:auto;
 		}
 
 		.features-icon-3col {
-			width: calc((3/12)*100%);
+			width: calc((1/12)*100%);
 			display: inline-block;
 			float:left;
 			clear: both;
@@ -2868,21 +2894,14 @@ height:auto;
 		}
 
 		.features-list-3col {
-			width: calc((12/12)*100%);
+			width: calc((9/12)*100%);
 			display: inline-block;
 			float:left;
 			padding-bottom:20px;
 		}
 
 		.features-short-list-3col {
-			width: calc((12/12)*100%);
-			display: inline-block;
-			float:left;
-			padding-bottom:0px;
-		}
-
-		.features-short-list-3col {
-			width: calc((12/12)*100%);
+			width: calc((10/12)*100%);
 			display: inline-block;
 			float:left;
 			padding-bottom:0px;
@@ -2893,9 +2912,17 @@ height:auto;
 			width: calc((4/12)*100%);
 			float:left;
 		}
-		.compare-3col {
-			width: calc((4/12)*100%);
+
+		.compare-3col-wrap{
+			width: calc((12/12)*100%);
 			float:left;
+			text-align: left;
+
+		}
+		.compare-3col {
+			width: calc((12/12)*100%);
+			float:left;
+			padding:20px;
 		}
 		.pricing-3col {
 			width: calc((8/12)*100%);
@@ -2950,7 +2977,7 @@ height:auto;
 		}
 
 		.links {
-			width: calc((11/12)*100%);
+			width: calc((10/12)*100%);
 			float:left;
 			height:80px;
 		}
@@ -3244,13 +3271,28 @@ height:auto;
 			width: calc((12/12)*100%);
 			float:left;
 		}
-		.features-4col {
+		.features-4col-wrap{
 			width: calc((6/12)*100%);
 			float:left;
+			text-align: left;
+
+		}
+		.features-4col {
+			width: calc((12/12)*100%);
+			float:left;
+		}
+		.features-short-4col-wrap{
+			width: calc((6/12)*100%);
+			float:left;
+			text-align: left;
+			padding-left:0;
+			padding-right:0;
+
 		}
 		.features-short-4col {
-			width: calc((3/12)*100%);
+			width: calc((6/12)*100%);
 			float:left;
+			padding:20px;
 		}
 		.home-work-side {
 			width: calc((12/12)*100%);
@@ -3264,9 +3306,23 @@ height:auto;
 			width: calc((12/12)*100%);
 			float:left;
 		}
+		.features-5col-wrap {
+			width: calc((12/12)*100%);
+			float:left;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
 		.features-5col {
 			width: calc((4/12)*100%);
 			float:left;
+			padding:10px;
+		}
+
+			.features-5col .features-list {
+			width: calc((10/12)*100%);
+			display: inline-block;
+			float:left;
+			min-height: 10em;
 		}
 
 		.features-icon {
@@ -3330,6 +3386,8 @@ height:auto;
 			width: calc((4/12)*100%);
 			float:left;
 		}
+
+		
 
 		.compare-3col {
 			width: calc((4/12)*100%);
@@ -3679,6 +3737,7 @@ height:auto;
 		.selector-2col {
 			width: calc((6/12)*100%);
 			float:left;
+			padding: 20px;
 		}
 
 		.features-2col {
@@ -3693,13 +3752,32 @@ height:auto;
 			width: calc((4/12)*100%);
 			float:left;
 		}
-		.features-4col {
-			width: calc((3/12)*100%);
+		.features-4col-wrap{
+			width: calc((6/12)*100%);
 			float:left;
+			text-align: left;
+			padding-left:0px;
+			padding-right:0px;
+
+		}
+		.features-4col {
+			width: calc((6/12)*100%);
+			float:left;
+			padding:20px;
+		}
+
+		.features-short-4col-wrap{
+			width: calc((6/12)*100%);
+			float:left;
+			text-align: left;
+			padding-left:0px;
+			padding-right:0px;
+
 		}
 		.features-short-4col {
-			width: calc((3/12)*100%);
+			width: calc((6/12)*100%);
 			float:left;
+			padding:20px;
 		}
 		.home-work-side {
 			width: calc((3/12)*100%);
@@ -3713,9 +3791,14 @@ height:auto;
 			width: calc((7/12)*100%);
 			float:left;
 		}
+		.features-5col-wrap {
+			width: calc((12/12)*100%);
+			float:left;
+		}
 		.features-5col {
 			width: calc((2.4/12)*100%);
 			float:left;
+			padding:0px;
 		}
 
 		.features-icon {
@@ -3759,9 +3842,20 @@ height:auto;
 			float:left;
 		}
 
+		.compare-3col-wrap {
+			padding-left:0;
+			padding-right:0;
+			width: calc((12/12)*100%);
+			float:left;
+			text-align: left;
+
+		}
+
+
 		.compare-3col {
 			width: calc((4/12)*100%);
 			float:left;
+			padding: 20px;
 		}
 
 		.pricing-3col {
@@ -4072,13 +4166,31 @@ height:auto;
 			float:left;
 		}
 
+		.features-4col-wrap{
+			width: calc((6/12)*100%);
+			float:left;
+			text-align: left;
+			padding-left:0px;
+			padding-right:0px;
+
+		}
+
 		.features-4col {
-			width: calc((3/12)*100%);
+			width: calc((6/12)*100%);
 			float:left;
 		}
-		.features-short-4col {
-			width: calc((3/12)*100%);
+		.features-short-4col-wrap{
+			width: calc((6/12)*100%);
 			float:left;
+			text-align: left;
+			padding-left:0px;
+			padding-right:0px;
+
+		}
+		.features-short-4col {
+			width: calc((6/12)*100%);
+			float:left;
+			padding: 20px;
 		}
 		.home-work-side {
 			width: calc((4/12)*100%);
