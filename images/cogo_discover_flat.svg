@@ -142,50 +142,58 @@
 	.st136{font-family:'WorkSans-Medium';}
 	.st137{font-size:20px;}
 	.st138{font-family:'WorkSans-Bold';}
-	.st139{font-family:'WorkSans-SemiBold';}
-	.st140{font-size:30px;}
-	.st141{font-size:24px;}
-	.st142{fill:none;stroke:#47BBB8;stroke-width:2.8349;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st143{clip-path:url(#SVGID_184_);}
-	.st144{clip-path:url(#SVGID_186_);}
-	.st145{clip-path:url(#SVGID_188_);}
-	.st146{clip-path:url(#SVGID_190_);}
-	.st147{fill:url(#SVGID_191_);}
-	.st148{clip-path:url(#SVGID_193_);}
-	.st149{clip-path:url(#SVGID_195_);}
-	.st150{clip-path:url(#SVGID_197_);}
-	.st151{clip-path:url(#SVGID_199_);}
-	.st152{clip-path:url(#SVGID_201_);}
-	.st153{clip-path:url(#SVGID_203_);}
-	.st154{clip-path:url(#SVGID_205_);}
-	.st155{clip-path:url(#SVGID_209_);}
-	.st156{fill:none;stroke:#CCCCCC;stroke-width:2.1763;stroke-miterlimit:10;}
-	.st157{fill:none;stroke:#CCCCCC;stroke-width:2.4864;stroke-miterlimit:10;}
-	.st158{fill:none;stroke:url(#SVGID_210_);stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st159{fill:none;stroke:url(#SVGID_211_);stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st160{clip-path:url(#SVGID_215_);}
-	.st161{clip-path:url(#SVGID_217_);}
-	.st162{clip-path:url(#SVGID_219_);}
-	.st163{clip-path:url(#SVGID_221_);}
-	.st164{clip-path:url(#SVGID_223_);}
-	.st165{clip-path:url(#SVGID_225_);}
-	.st166{clip-path:url(#SVGID_227_);}
-	.st167{clip-path:url(#SVGID_229_);}
-	.st168{clip-path:url(#SVGID_231_);}
-	.st169{clip-path:url(#SVGID_233_);}
-	.st170{clip-path:url(#SVGID_235_);}
-	.st171{fill:none;stroke:#7E8892;stroke-width:10;stroke-miterlimit:10;}
-	.st172{clip-path:url(#SVGID_237_);}
-	.st173{clip-path:url(#SVGID_239_);}
-	.st174{clip-path:url(#SVGID_241_);}
-	.st175{clip-path:url(#SVGID_243_);}
-	.st176{clip-path:url(#SVGID_245_);}
-	.st177{clip-path:url(#SVGID_247_);}
-	.st178{clip-path:url(#SVGID_251_);}
-	.st179{fill:none;stroke:url(#SVGID_252_);stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st180{fill:none;stroke:url(#SVGID_253_);stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st181{display:none;}
-	.st182{display:inline;}
+	.st139{font-size:30px;}
+	.st140{font-size:24px;}
+	.st141{fill:none;stroke:#47BBB8;stroke-width:2.8349;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st142{clip-path:url(#SVGID_184_);}
+	.st143{clip-path:url(#SVGID_186_);}
+	.st144{clip-path:url(#SVGID_188_);}
+	.st145{clip-path:url(#SVGID_190_);}
+	.st146{fill:url(#SVGID_191_);}
+	.st147{clip-path:url(#SVGID_193_);}
+	.st148{clip-path:url(#SVGID_195_);}
+	.st149{clip-path:url(#SVGID_197_);}
+	.st150{clip-path:url(#SVGID_199_);}
+	.st151{clip-path:url(#SVGID_201_);}
+	.st152{clip-path:url(#SVGID_203_);}
+	.st153{clip-path:url(#SVGID_205_);}
+	.st154{clip-path:url(#SVGID_209_);}
+	.st155{fill:none;stroke:#CCCCCC;stroke-width:2.1763;stroke-miterlimit:10;}
+	.st156{fill:none;stroke:#CCCCCC;stroke-width:2.4864;stroke-miterlimit:10;}
+	.st157{fill:none;stroke:url(#SVGID_210_);stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st158{fill:none;stroke:url(#SVGID_211_);stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st159{clip-path:url(#SVGID_215_);}
+	.st160{clip-path:url(#SVGID_217_);}
+	.st161{clip-path:url(#SVGID_219_);}
+	.st162{clip-path:url(#SVGID_221_);}
+	.st163{clip-path:url(#SVGID_223_);}
+	.st164{clip-path:url(#SVGID_225_);}
+	.st165{clip-path:url(#SVGID_227_);}
+	.st166{clip-path:url(#SVGID_229_);}
+	.st167{clip-path:url(#SVGID_231_);}
+	.st168{clip-path:url(#SVGID_233_);}
+	.st169{clip-path:url(#SVGID_235_);}
+	.st170{fill:none;stroke:#7E8892;stroke-width:10;stroke-miterlimit:10;}
+	.st171{clip-path:url(#SVGID_237_);}
+	.st172{clip-path:url(#SVGID_239_);}
+	.st173{clip-path:url(#SVGID_241_);}
+	.st174{clip-path:url(#SVGID_243_);}
+	.st175{clip-path:url(#SVGID_245_);}
+	.st176{clip-path:url(#SVGID_247_);}
+	.st177{clip-path:url(#SVGID_251_);}
+	.st178{fill:none;stroke:url(#SVGID_252_);stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st179{fill:none;stroke:url(#SVGID_253_);stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st180{clip-path:url(#SVGID_257_);}
+	.st181{fill:none;stroke:#86BC24;stroke-width:2.1106;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st182{clip-path:url(#SVGID_259_);}
+	.st183{clip-path:url(#SVGID_261_);}
+	.st184{clip-path:url(#SVGID_263_);}
+	.st185{clip-path:url(#SVGID_265_);}
+	.st186{clip-path:url(#SVGID_267_);}
+	.st187{clip-path:url(#SVGID_271_);}
+	.st188{fill:none;stroke:#86BC24;stroke-width:3.7668;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st189{display:none;}
+	.st190{display:inline;}
 </style>
 <g id="Layer_1">
 	<g>
@@ -438,11 +446,11 @@
 	<g>
 		<circle class="st3" cx="144.4" cy="186" r="95.1"/>
 		<g>
-			<text transform="matrix(0.9987 0 0 1 259.5325 128.5905)"><tspan x="0" y="0" class="st12 st139 st140">Gerald Lora</tspan><tspan x="0" y="48" class="st12 st136 st141">Business Development VP  ·  Singapore</tspan><tspan x="0" y="80" class="st12 st136 st141">gerald@company.com</tspan></text>
+			<text transform="matrix(0.9987 0 0 1 259.5325 128.5905)"><tspan x="0" y="0" class="st12 st136 st139">Gerald Lora</tspan><tspan x="0" y="48" class="st12 st136 st140">Business Development VP  ·  Singapore</tspan><tspan x="0" y="80" class="st12 st136 st140">gerald@company.com</tspan></text>
 			<g>
-				<path class="st12" d="M538.8,141.8h-91.6c-4.9,0-8.9-4-8.9-8.9v-26.2c0-4.9,4-8.9,8.9-8.9h91.6c4.9,0,8.9,4,8.9,8.9v26.2
-					C547.7,137.8,543.7,141.8,538.8,141.8z"/>
-				<text transform="matrix(0.9987 0 0 1 451.8997 125.652)" class="st3 st138 st137">member</text>
+				<path class="st12" d="M543.8,141.8h-91.6c-4.9,0-8.9-4-8.9-8.9v-26.2c0-4.9,4-8.9,8.9-8.9h91.6c4.9,0,8.9,4,8.9,8.9v26.2
+					C552.7,137.8,548.7,141.8,543.8,141.8z"/>
+				<text transform="matrix(0.9987 0 0 1 456.8997 125.652)" class="st3 st136 st137">member</text>
 			</g>
 		</g>
 		<g>
@@ -450,24 +458,24 @@
 		</g>
 		<g>
 			<g>
-				<polygon class="st142" points="316.8,237.2 320.5,244.7 328.7,245.9 322.7,251.8 324.1,260 316.8,256.1 309.5,260 310.9,251.8 
+				<polygon class="st141" points="316.8,237.2 320.5,244.7 328.7,245.9 322.7,251.8 324.1,260 316.8,256.1 309.5,260 310.9,251.8 
 					305,245.9 313.2,244.7 				"/>
 				<g>
-					<text transform="matrix(0.9987 0 0 1 258.1419 257.7545)" class="st12 st138 st141">212</text>
+					<text transform="matrix(0.9987 0 0 1 258.1419 257.7545)" class="st12 st138 st140">212</text>
 				</g>
 			</g>
 			<g>
 				<g>
 					<ellipse class="st126" cx="426.4" cy="246.9" rx="3.5" ry="3.6"/>
-					<path class="st142" d="M443.8,249c0,0-7.8-11.1-17.4-11.1c-4.9,0-8.9,4-8.9,9s4,9,8.9,9c4.9,0,8.9-4,8.9-9s-4-9-8.9-9
+					<path class="st141" d="M443.8,249c0,0-7.8-11.1-17.4-11.1c-4.9,0-8.9,4-8.9,9s4,9,8.9,9c4.9,0,8.9-4,8.9-9s-4-9-8.9-9
 						c-9.6,0-17.4,11.1-17.4,11.1"/>
 					<ellipse class="st126" cx="443.8" cy="249" rx="1.9" ry="1.9"/>
-					<path class="st142" d="M441.1,253.4c-4.3,4.5-9.5,7.3-14.6,7.3c-5.2,0-10.3-2.8-14.6-7.3"/>
+					<path class="st141" d="M441.1,253.4c-4.3,4.5-9.5,7.3-14.6,7.3c-5.2,0-10.3-2.8-14.6-7.3"/>
 				</g>
 				<ellipse class="st126" cx="409.1" cy="249" rx="1.9" ry="1.9"/>
 			</g>
 			<g>
-				<text transform="matrix(0.9987 0 0 1 351.4212 257.7545)" class="st12 st138 st141">426</text>
+				<text transform="matrix(0.9987 0 0 1 351.4212 257.7545)" class="st12 st138 st140">426</text>
 			</g>
 		</g>
 		<g>
@@ -14703,11 +14711,11 @@ kiVLlixZsmTJkiVLlixZsmTJkiVLluxXsv8D2DYYEJJ8/TIAAAAASUVORK5CYII=" transform="mat
 				</g>
 			</g>
 			<g>
-				<text transform="matrix(0.9987 0 0 1 69.304 404.2765)"><tspan x="0" y="0" class="st3 st138 st141">Financial</tspan><tspan x="0" y="32" class="st3 st138 st141">Report 2017</tspan></text>
+				<text transform="matrix(0.9987 0 0 1 69.304 404.2765)"><tspan x="0" y="0" class="st3 st136 st140">Financial</tspan><tspan x="0" y="32" class="st3 st136 st140">Report 2017</tspan></text>
 			</g>
 		</g>
 		<g>
-			<text transform="matrix(0.9987 0 0 1 167.953 503.3559)" class="st12 st138 st137">2 days ago</text>
+			<text transform="matrix(0.9987 0 0 1 167.7137 503.3559)" class="st12 st136 st137">2 days ago</text>
 		</g>
 		<polygon class="st15" points="104.1,489.1 106.8,494.7 112.9,495.6 108.5,500 109.5,506.1 104.1,503.2 98.6,506.1 99.7,500 
 			95.3,495.6 101.4,494.7 		"/>
@@ -14729,11 +14737,11 @@ kiVLlixZsmTJkiVLlixZsmTJkiVLluxXsv8D2DYYEJJ8/TIAAAAASUVORK5CYII=" transform="mat
 				</g>
 			</g>
 			<g>
-				<text transform="matrix(0.9987 0 0 1 326.8416 404.2765)"><tspan x="0" y="0" class="st3 st138 st141">3rd Quarter</tspan><tspan x="0" y="32" class="st3 st138 st141">Marketing Plan</tspan></text>
+				<text transform="matrix(0.9987 0 0 1 326.8416 404.2765)"><tspan x="0" y="0" class="st3 st136 st140">3rd Quarter</tspan><tspan x="0" y="32" class="st3 st136 st140">Marketing Plan</tspan></text>
 			</g>
 		</g>
 		<g>
-			<text transform="matrix(0.9987 0 0 1 415.7239 503.3559)" class="st12 st138 st137">14 days ago</text>
+			<text transform="matrix(0.9987 0 0 1 416.2029 503.3559)" class="st12 st136 st137">14 days ago</text>
 		</g>
 		<polygon class="st15" points="371.6,489.1 374.3,494.7 380.4,495.6 376,500 377.1,506.1 371.6,503.2 366.2,506.1 367.2,500 
 			362.8,495.6 368.9,494.7 		"/>
@@ -14755,11 +14763,11 @@ kiVLlixZsmTJkiVLlixZsmTJkiVLluxXsv8D2DYYEJJ8/TIAAAAASUVORK5CYII=" transform="mat
 				</g>
 			</g>
 			<g>
-				<text transform="matrix(0.9987 0 0 1 583.7596 404.2765)"><tspan x="0" y="0" class="st3 st138 st141">Business Pitch</tspan><tspan x="0" y="32" class="st3 st138 st141">Proposal</tspan></text>
+				<text transform="matrix(0.9987 0 0 1 583.7596 404.2765)"><tspan x="0" y="0" class="st3 st136 st140">Business Pitch</tspan><tspan x="0" y="32" class="st3 st136 st140">Proposal</tspan></text>
 			</g>
 		</g>
 		<g>
-			<text transform="matrix(0.9987 0 0 1 673.6404 503.3559)" class="st12 st138 st137">21 days ago</text>
+			<text transform="matrix(0.9987 0 0 1 673.8201 503.3559)" class="st12 st136 st137">21 days ago</text>
 		</g>
 		<polygon class="st15" points="620.5,489.1 623.3,494.7 629.3,495.6 624.9,500 626,506.1 620.5,503.2 615.1,506.1 616.1,500 
 			611.7,495.6 617.8,494.7 		"/>
@@ -14770,6 +14778,6 @@ kiVLlixZsmTJkiVLlixZsmTJkiVLluxXsv8D2DYYEJJ8/TIAAAAASUVORK5CYII=" transform="mat
 </g>
 <g id="Text_1">
 </g>
-<g id="Text_2" class="st181">
+<g id="Text_2" class="st189">
 </g>
 </svg>
