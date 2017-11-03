@@ -1,1 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 450"><defs><style>.cls-1{fill:#fff;}</style></defs><title>cogo_arrow_down</title><g id="Layer_2" data-name="Layer 2"><path class="cls-1" d="M225.84,301.31a29,29,0,0,1-16.15-4.93l-.73-.53L76.13,192.78l15.94-20.54L224.4,274.92a3,3,0,0,0,2.87,0L359,172.84l15.92,20.55L242.34,296.14l-.37.25A29,29,0,0,1,225.84,301.31Z"/><circle class="cls-1" cx="366.96" cy="182.72" r="21.5"/><circle class="cls-1" cx="84.1" cy="182.72" r="21.5"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 450 450" style="enable-background:new 0 0 450 450;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#41BFB9;}
+	.st3{fill:#7E5AA6;}
+	.st4{fill:#CCCCCC;}
+	.st5{fill:none;stroke:#CCCCCC;stroke-width:18;stroke-miterlimit:10;}
+	.st6{fill:#41BBB9;}
+	.st7{fill:#CCCCCC;stroke:#CCCCCC;stroke-width:1.3957;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<path class="st1" d="M383.2,166.5c-9-9-23.5-9-32.5,0c-3.6,3.6-5.7,8.1-6.4,12.7L225.8,271l-119.1-92.4c-0.8-4.4-2.9-8.7-6.3-12.1
+			c-9-9-23.5-9-32.5,0s-9,23.5,0,32.5c5,5,11.8,7.2,18.3,6.6L206.5,299l1,0.7c5.5,3.7,11.8,5.6,18.4,5.6c6.5,0,12.9-1.9,18.4-5.6
+			l0.5-0.3l120.9-93.7c6.3,0.4,12.8-1.8,17.6-6.7C392.2,190,392.2,175.4,383.2,166.5z"/>
+	</g>
+</g>
+</svg>
