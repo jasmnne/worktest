@@ -2117,6 +2117,13 @@ height:auto;
 	    	line-height: 145%;
 	    }
 
+      p.text-only {
+        font-size: 1em;
+        font-weight: 400;
+        line-height: 145%;
+      }
+
+
 	    .content-ul {
 	    	font-size: 0.9em;
 	    	font-weight: 400;
@@ -2570,6 +2577,10 @@ height:auto;
 	    p {
 	    	font-size:0.9em;
     	}
+
+      p.text-only {
+        font-size: 1em;
+      }
 
     	.content-ul {
     		font-size: 0.9em;
@@ -3039,6 +3050,10 @@ height:auto;
 	    p {
 	    	font-size:0.9em;
     	}
+
+      p.text-only {
+        font-size: 1em;
+      }
 
     	.content-ul {
     		font-size:0.9em;
@@ -3514,6 +3529,10 @@ height:auto;
 	    	font-size:0.9em;
     	}
 
+      p.text-only {
+        font-size: 1em;
+      }
+
     	.content-ul {
     		font-size: 0.9em;
 	    	margin:0;
@@ -3964,6 +3983,10 @@ height:auto;
 	    	font-size:0.9em;
     	}
 
+      p.text-only {
+        font-size: 1em;
+      }
+
     	.content-ul {
     		font-size: 0.9em;
 	    	margin:0;
@@ -4357,6 +4380,10 @@ height:auto;
 	    	font-size:0.9em;
 
 	    }
+
+      p.text-only {
+        font-size: 1em;
+      }
 
 	    .content-ul {
 	    	font-size: 0.9em;
