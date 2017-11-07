@@ -3,50 +3,42 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 450 450" style="enable-background:new 0 0 450 450;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:#41BFB9;}
-	.st3{fill:#7E5AA6;}
-	.st4{fill:#CCCCCC;}
-	.st5{fill:none;stroke:#CCCCCC;stroke-width:18;stroke-miterlimit:10;}
-	.st6{fill:#41BBB9;}
-	.st7{fill:#CCCCCC;stroke:#CCCCCC;stroke-width:1.3957;stroke-miterlimit:10;}
+	.st0{fill:#FFFFFF;}
 </style>
 <g>
 	<g>
 		<g>
 			<g>
-				<path class="st1" d="M417,61.2c-16.2,0-28.7,12.5-28.7,28.8s12.5,28.8,28.7,28.8c16.2,0,28.8-12.5,28.8-28.8
-					S433.2,61.2,417,61.2L417,61.2z"/>
+				<path class="st0" d="M417,61.2c-16.2,0-28.7,12.5-28.7,28.8s12.5,28.8,28.7,28.8s28.8-12.5,28.8-28.8S433.2,61.2,417,61.2
+					L417,61.2z"/>
 			</g>
 			<g>
-				<circle class="st1" cx="37" cy="90" r="28.8"/>
+				<circle class="st0" cx="37" cy="90" r="28.8"/>
 			</g>
 			<g>
-				<rect x="35.8" y="70.4" class="st1" width="377.5" height="39.3"/>
+				<rect x="35.8" y="70.4" class="st0" width="377.5" height="39.3"/>
 			</g>
 			<g>
-				<path class="st1" d="M417,196.2c-16.2,0-28.7,12.5-28.7,28.8s12.5,28.7,28.7,28.7c16.2,0,28.8-12.5,28.8-28.7
-					S433.2,196.2,417,196.2L417,196.2z"/>
+				<path class="st0" d="M417,196.2c-16.2,0-28.7,12.5-28.7,28.8s12.5,28.7,28.7,28.7s28.8-12.5,28.8-28.7S433.2,196.2,417,196.2
+					L417,196.2z"/>
 			</g>
 			<g>
-				<circle class="st1" cx="37" cy="225" r="28.7"/>
+				<circle class="st0" cx="37" cy="225" r="28.7"/>
 			</g>
 			<g>
-				<rect x="35.8" y="205.4" class="st1" width="377.5" height="39.2"/>
+				<rect x="35.8" y="205.4" class="st0" width="377.5" height="39.2"/>
 			</g>
 			<g>
-				<path class="st1" d="M417,331.2c-16.2,0-28.7,12.5-28.7,28.8c0,16.2,12.5,28.7,28.7,28.7c16.2,0,28.8-12.5,28.8-28.7
-					C445.8,343.8,433.2,331.2,417,331.2L417,331.2z"/>
+				<path class="st0" d="M417,331.2c-16.2,0-28.7,12.5-28.7,28.8c0,16.2,12.5,28.7,28.7,28.7s28.8-12.5,28.8-28.7
+					S433.2,331.2,417,331.2L417,331.2z"/>
 			</g>
 			<g>
-				<circle class="st1" cx="37" cy="360" r="28.7"/>
+				<circle class="st0" cx="37" cy="360" r="28.7"/>
 			</g>
 			<g>
-				<rect x="38.2" y="341.4" class="st1" width="377.5" height="37.2"/>
+				<rect x="38.2" y="341.4" class="st0" width="377.5" height="37.2"/>
 			</g>
 		</g>
 	</g>
-	<rect x="2" class="st1" width="450" height="450"/>
 </g>
 </svg>
